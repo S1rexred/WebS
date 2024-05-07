@@ -1,5 +1,5 @@
 body{
-    background:#c0c0c0; /* Меняется фон экрана, выбирается здесь */
+    background: blueviolet /* Меняется фон экрана, выбирается здесь */
   }
   
 #wrapper{ /* Оболочка страницы сайта */
@@ -12,25 +12,82 @@ body{
   
  #header{
   position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
-    height: 250px; /* Высота шапки */
+    height: 450px; /* Высота шапки */
     background-color: #ffffff; /* Фон шапки */
-     margin-bottom: 5px; /* Нижний отступ шапки от остального контента */
+    margin-bottom: 5px; /* Нижний отступ шапки от остального контента */
     border-radius: 5px; /* Закругляются углы блока */
     box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
     
   }
-img{ /* Фоновая картинка в шапке */
-  float: left; /* Разрешаем наплывание других элементов на картинку */
-    margin: -40px 0 0 0;} /* Размещаем картинку в блоке header. 1-я и 3-я цифры - двигаем вверх-вниз, 2-я и 4-я цифры - двигаем вправо-влево */
+#info_cafe {
+  float:left;
+  margin:-33px 0 0 190px;
+  font-family: sans-serif;
+  font-weight: bold;
+  }
+
+#infoMenu {
+  float: left;
+  margin-top: -32px;
+  margin-left: 350px;
+  font-family: sans-serif;
+  font-weight: bold;
+  }
+#infoComanda {
+  float: left;
+  margin-top: -33px;
+  margin-left: 465px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#infoContact {
+  float: left;
+  margin-top: -33px;
+  margin-left: 600px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#infoBron {
+  float: left;
+  margin-top: -51px;
+  margin-left: 750px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.rectangle {
+  width: 180px; /* Ширина прямоугольника */
+  height: 67px; /* Высота прямоугольника */
+  background-color: black; /* Цвет фона прямоугольника */
+  border: 0 solid #2980b9; /* Граница прямоугольника */
+  float: right;
+  margin-right: 7px;
+  margin-top: -60px;
+  border-radius: 20px
+}
+#CoffeeH {
+  /* avto_doroga_dvizhenie_120501_3840x2400 1 */
+
+position: absolute;
+width: 900px;
+height: 299px;
+left: 0px;
+top: 92px;
+max-width: 100%
+
+
+
+}
 h1{ /* Заголовок сайта */
     padding-left: 20px;
     padding-top: 30px;
     padding-bottom: -60px;
-    color:#464451; /* Цвет заголовка */
+    color:#000000; /* Цвет заголовка */
     font-size: 20px;
     vertical-align: bottom;
     margin: auto;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     
   }
 .nomer{ /*Подзаголовок (номер телефона)*/
@@ -43,41 +100,22 @@ h1{ /* Заголовок сайта */
     color:#464451; /* Цвет букв подзаголовка */
   }
   
-  /* Сайдбар (колонка справа) */
-  
-#sidebar{ /* Блок сайдбара */
-    background-color: #ffffff; /* Фон блока */
-    width: 180px; /* Ширина блока */
-    padding: 10px; /* Отступ текста от краёв */
-    float: right; /* Размещаем блок справа от других элементов, наплывание или обтекание справа). Если делать сайдбар слева, то значение right меняем на left */
-    border-radius: 5px; /* Закругляем углы блока */
-    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Задаём блоку тень */
-  }
 .marcer{ /* Галочки маркеры меню */
     float: left; /* Размещаем слева от текста */
     margin: 5px 5px 0 0; /* Двигаются вверх-вправо-вниз-влево */
   }
   
   /* Контент (статья) */
-  
 #content{ /* Блок контента */
     margin-bottom: 5px; /* Отступ блока статьи от блока подвала */
     width: 676px; /* Ширина статьи */
-    padding: 10px; /* Отступ текста от краёв блока */
+    padding: 112px; /* Отступ текста от краёв блока */
     background: #ffffff; /* Фон статьи */
     border-radius: 5px;
     box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
   }
-.left{ /* Картинка в тексте слева */
-    float: left;
-    margin: 30px 7px 7px 7px;
-  }
-.right{ /* Картинка в тексте справа */
-    float: right;
-    margin: 7px 0 7px 7px;
-  }
+
   /* Подвал */
-  
 #footer{ /* Блок подвала */
     height:80px; /* Высота блока подвала */
     background-color: #ffffff; /* Фон блока подвала */
@@ -102,6 +140,6 @@ h1{ /* Заголовок сайта */
   }
 #Star {
 text-align: top;
-margin-bottom: -37px;
+margin-bottom: -39px;
 }
   
