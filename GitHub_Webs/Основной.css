@@ -69,15 +69,22 @@ body{
   /* avto_doroga_dvizhenie_120501_3840x2400 1 */
 
 position: absolute;
-width: 900px;
+width: 870px;
 height: 299px;
-left: 0px;
+left: 13px;
 top: 92px;
-max-width: 100%
-
-
-
+max-width: 100%;
 }
+#KosmosCOffee {
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 50px;
+}
+
+
+
+
+
 h1{ /* Заголовок сайта */
     padding-left: 20px;
     padding-top: 30px;
