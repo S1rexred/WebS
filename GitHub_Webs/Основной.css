@@ -12,7 +12,7 @@ body{
   
  #header{
   position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
-    height: 450px; /* Высота шапки */
+    height: 433px; /* Высота шапки */
     background-color: #ffffff; /* Фон шапки */
     margin-bottom: 5px; /* Нижний отступ шапки от остального контента */
     border-radius: 5px; /* Закругляются углы блока */
@@ -35,14 +35,14 @@ body{
   }
 #infoComanda {
   float: left;
-  margin-top: -33px;
+  margin-top: -34px;
   margin-left: 465px;
   font-family: sans-serif;
   font-weight: bold;
 }
 #infoContact {
   float: left;
-  margin-top: -33px;
+  margin-top: -34px;
   margin-left: 600px;
   font-family: sans-serif;
   font-weight: bold;
@@ -50,7 +50,7 @@ body{
 #infoBron {
   float: left;
   margin-top: -51px;
-  margin-left: 750px;
+  margin-left: 744px;
   color: white;
   font-family: sans-serif;
   font-weight: bold;
@@ -78,12 +78,13 @@ max-width: 100%;
 #KosmosCOffee {
   font-family: sans-serif;
   font-weight: bold;
-  width: 50px;
+  width: 450px;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 275px;
+  font-size: 40px;
+  color: rgba(255, 0, 140, 0.356);
 }
-
-
-
-
 
 h1{ /* Заголовок сайта */
     padding-left: 20px;
@@ -97,6 +98,18 @@ h1{ /* Заголовок сайта */
     
     
   }
+
+
+
+
+
+  h2 {
+margin-left: 250px;
+margin-top: -75px;
+  }
+#Work {
+
+}
 .nomer{ /*Подзаголовок (номер телефона)*/
     position:absolute; /* Позиционируем абсолютно подзаголовок, относительно границ блока header. Также можно разместить в шапке сайта ещё другие картинки и абзацы поверх фоновой картинки и заголовка */
     top:5px; /* Двигается вверх-вниз */
