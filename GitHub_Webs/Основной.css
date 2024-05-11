@@ -28,14 +28,14 @@ body{
 
 #infoMenu {
   float: left;
-  margin-top: -32px;
+  margin-top: -33px;
   margin-left: 350px;
   font-family: sans-serif;
   font-weight: bold;
   }
 #infoComanda {
   float: left;
-  margin-top: -34px;
+  margin-top: -35px;
   margin-left: 465px;
   font-family: sans-serif;
   font-weight: bold;
@@ -112,6 +112,27 @@ margin-top: -75px;
 
 
 }
+#suitcase {
+  width: 75px;
+  position: absolute;
+}
+.OrigWork{
+  margin-bottom: 90px;
+}
+.OrigWork {
+  margin-top: 40px;
+}
+.rectangle2 {
+  width: 850px; /* Ширина прямоугольника */
+  height: 400px; /* Высота прямоугольника */
+  background-color: rgba(106, 0, 167, 0.274); /* Цвет фона прямоугольника */
+  border: 0 solid #2980b9; /* Граница прямоугольника */
+  float: left;
+  margin-left: -88px;
+  margin-top: -110px;
+  border-radius: 10px
+
+}
 .nomer{ /*Подзаголовок (номер телефона)*/
     position:absolute; /* Позиционируем абсолютно подзаголовок, относительно границ блока header. Также можно разместить в шапке сайта ещё другие картинки и абзацы поверх фоновой картинки и заголовка */
     top:5px; /* Двигается вверх-вниз */
@@ -135,6 +156,7 @@ margin-top: -75px;
     background: #ffffff; /* Фон статьи */
     border-radius: 5px;
     box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+    height: 300px;
   }
 
   /* Подвал */
