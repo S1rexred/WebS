@@ -1,26 +1,27 @@
 body{
-    background: rgba(255, 255, 255, 0.082); /* Меняется фон экрана, выбирается здесь */
+    background: rgba(0, 0, 0, 0.726); /* Меняется фон экрана, выбирается здесь */
     height: 100vh; /* Высота равная 100% видимой высоты экрана */
+    margin-top: 0;
 
   }
   
 #wrapper{ /* Оболочка страницы сайта */
     width: 1080px; /* Меняется ширина страницы */
     margin: auto;
-    background:#f2e8c9; /* Меняется задний фон страницы */
-    box-shadow: rgba(0, 0, 0, 0.205) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
-    b
+    background:#00000054; /* Меняется задний фон страницы */
+    box-shadow: rgba(0, 0, 0, 0.507) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+    color: rgb(0, 0, 0);
   }
   
   /* Шапка сайта */
   
  #header{
-  position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
+    position: relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
     height: 460px; /* Высота шапки */
-    background-color: #ffffff; /* Фон шапки */
+    background-color: 0000004f; /* Фон шапки */
     margin-bottom: 5px; /* Нижний отступ шапки от остального контента */
     border-radius: 0px; /* Закругляются углы блока */
-    box-shadow: rgba(0, 0, 0, 0.205) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
     
   }
   #Star {
@@ -34,6 +35,7 @@ body{
   margin:-33px 0 0 230px;
   font-family: sans-serif;
   font-weight: bold;
+  color: white;
   }
 
 #infoMenu {
@@ -42,6 +44,7 @@ body{
   margin-left: 440px;
   font-family: sans-serif;
   font-weight: bold;
+  color: white;
   }
 #infoComanda {
   float: left;
@@ -49,6 +52,7 @@ body{
   margin-left: 270px;
   font-family: sans-serif;
   font-weight: bold;
+  color: white;
 }
 #infoContact {
   float: left;
@@ -56,6 +60,7 @@ body{
   margin-left: 580px;
   font-family: sans-serif;
   font-weight: bold;
+  color: white;
 }
 #infoBron {
   float: left;
@@ -64,11 +69,12 @@ body{
   color: white;
   font-family: sans-serif;
   font-weight: bold;
+  color: rgb(0, 0, 0);
 }
 .rectangle {
   width: 180px; /* Ширина прямоугольника */
   height: 67px; /* Высота прямоугольника */
-  background-color: black; /* Цвет фона прямоугольника */
+  background-color: rgb(255, 255, 255); /* Цвет фона прямоугольника */
   border: 0 solid #2980b9; /* Граница прямоугольника */
   float: right;
   margin-right: 7px;
@@ -86,12 +92,12 @@ top: 92px;
 max-width: 100%;
 }
 #KosmosCOffee {
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   width: 450px;
   position: absolute;
-  margin-top: 150px;
-  margin-left: 275px;
+  margin-top: 165px;
+  margin-left: 340px;
   font-size: 40px;
   color: rgba(255, 0, 140, 0.356);
 }
@@ -100,12 +106,12 @@ h1{ /* Заголовок сайта */
     padding-left: 35px;
     padding-top: 30px;
     padding-bottom: -60px;
-    color:#000000; /* Цвет заголовка */
+     /* Цвет заголовка */
     font-size: 20px;
     vertical-align: bottom;
     margin: auto;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    color: white;
     
   }
 
@@ -116,6 +122,7 @@ h1{ /* Заголовок сайта */
   h2 {
 margin-left: 250px;
 margin-top: -75px;
+color: white;
   }
 #Work {
 
@@ -133,7 +140,7 @@ margin-top: -75px;
 .rectangle2 {
   width: 850px; /* Ширина прямоугольника */
   height: 400px; /* Высота прямоугольника */
-  background-color: rgba(106, 0, 167, 0.274); /* Цвет фона прямоугольника */
+  background-color: rgba(0, 0, 0, 0.137); /* Цвет фона прямоугольника */
   border: 0 solid #2980b9; /* Граница прямоугольника */
   float: left;
   margin-left: -88px;
@@ -141,15 +148,7 @@ margin-top: -75px;
   border-radius: 10px
 
 }
-.nomer{ /*Подзаголовок (номер телефона)*/
-    position:absolute; /* Позиционируем абсолютно подзаголовок, относительно границ блока header. Также можно разместить в шапке сайта ещё другие картинки и абзацы поверх фоновой картинки и заголовка */
-    top:5px; /* Двигается вверх-вниз */
-    left:680px; /* Двигается вправо-влево */
-    font-size: 25px; /* Размер букв подзаголовка */
-    font-style:italic; /* Курсив */
-    font-weight:bold; /* Жирный */
-    color:#464451; /* Цвет букв подзаголовка */
-  }
+
   
 .marcer{ /* Галочки маркеры меню */
     float: left; /* Размещаем слева от текста */
@@ -161,7 +160,7 @@ margin-top: -75px;
     margin-bottom: 5px; /* Отступ блока статьи от блока подвала */
     width: 856px; /* Ширина статьи */
     padding: 112px; /* Отступ текста от краёв блока */
-    background: #ffffff; /* Фон статьи */
+    background: 0000004f; /* Фон статьи */
     border-radius: 5px;
     
     height: 300px;
@@ -170,7 +169,7 @@ margin-top: -75px;
   /* Подвал */
 #footer{ /* Блок подвала */
     height:80px; /* Высота блока подвала */
-    background-color: #ffffff; /* Фон блока подвала */
+    background-color: 0000004f; /* Фон блока подвала */
     margin-bottom: 10px; /* Отступ снизу */
     border-radius: 5px; /* Закруглённые углы */
     box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень блока */
@@ -181,14 +180,17 @@ margin-top: -75px;
 .fon{ /* Номер телефона */
     float:left; /* Разрешаем другим элементам обтекать абзац справа */
     margin:20px 0 0 20px;
+    color: white;
   }
 .fax{ /* Номер факса */
     float:left;
     margin:20px 0 0 60px;
+    color: white;
   }
 .mail{ /* Адрес E-mail */
     float:left;
    margin:20px 0 0 60px;
+   color: white;
   }
 
   
