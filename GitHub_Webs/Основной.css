@@ -1,27 +1,37 @@
 body{
-    background: blueviolet /* Меняется фон экрана, выбирается здесь */
+    background: rgba(255, 255, 255, 0.082); /* Меняется фон экрана, выбирается здесь */
+    height: 100vh; /* Высота равная 100% видимой высоты экрана */
+
   }
   
 #wrapper{ /* Оболочка страницы сайта */
-    width: 900px; /* Меняется ширина страницы */
-    margin: 0 auto;
+    width: 1080px; /* Меняется ширина страницы */
+    margin: auto;
     background:#f2e8c9; /* Меняется задний фон страницы */
+    box-shadow: rgba(0, 0, 0, 0.205) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+    b
   }
   
   /* Шапка сайта */
   
  #header{
   position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
-    height: 433px; /* Высота шапки */
+    height: 460px; /* Высота шапки */
     background-color: #ffffff; /* Фон шапки */
     margin-bottom: 5px; /* Нижний отступ шапки от остального контента */
-    border-radius: 5px; /* Закругляются углы блока */
-    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+    border-radius: 0px; /* Закругляются углы блока */
+    box-shadow: rgba(0, 0, 0, 0.205) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
     
   }
-#info_cafe {
+  #Star {
+    text-align: top;
+    margin-bottom: -39px;
+    width: 50px;
+    }
+
+  #info_cafe {
   float:left;
-  margin:-33px 0 0 190px;
+  margin:-33px 0 0 230px;
   font-family: sans-serif;
   font-weight: bold;
   }
@@ -29,28 +39,28 @@ body{
 #infoMenu {
   float: left;
   margin-top: -33px;
-  margin-left: 350px;
+  margin-left: 440px;
   font-family: sans-serif;
   font-weight: bold;
   }
 #infoComanda {
   float: left;
   margin-top: -35px;
-  margin-left: 465px;
+  margin-left: 270px;
   font-family: sans-serif;
   font-weight: bold;
 }
 #infoContact {
   float: left;
   margin-top: -34px;
-  margin-left: 600px;
+  margin-left: 580px;
   font-family: sans-serif;
   font-weight: bold;
 }
 #infoBron {
   float: left;
   margin-top: -51px;
-  margin-left: 744px;
+  margin-left: 920px;
   color: white;
   font-family: sans-serif;
   font-weight: bold;
@@ -69,8 +79,8 @@ body{
   /* avto_doroga_dvizhenie_120501_3840x2400 1 */
 
 position: absolute;
-width: 870px;
-height: 299px;
+width: 1050px;
+height: 345px;
 left: 13px;
 top: 92px;
 max-width: 100%;
@@ -87,7 +97,7 @@ max-width: 100%;
 }
 
 h1{ /* Заголовок сайта */
-    padding-left: 20px;
+    padding-left: 35px;
     padding-top: 30px;
     padding-bottom: -60px;
     color:#000000; /* Цвет заголовка */
@@ -119,9 +129,7 @@ margin-top: -75px;
 .OrigWork{
   margin-bottom: 90px;
 }
-.OrigWork {
-  margin-top: 40px;
-}
+
 .rectangle2 {
   width: 850px; /* Ширина прямоугольника */
   height: 400px; /* Высота прямоугольника */
@@ -151,11 +159,11 @@ margin-top: -75px;
   /* Контент (статья) */
 #content{ /* Блок контента */
     margin-bottom: 5px; /* Отступ блока статьи от блока подвала */
-    width: 676px; /* Ширина статьи */
+    width: 856px; /* Ширина статьи */
     padding: 112px; /* Отступ текста от краёв блока */
     background: #ffffff; /* Фон статьи */
     border-radius: 5px;
-    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+    
     height: 300px;
   }
 
@@ -182,8 +190,5 @@ margin-top: -75px;
     float:left;
    margin:20px 0 0 60px;
   }
-#Star {
-text-align: top;
-margin-bottom: -39px;
-}
+
   
