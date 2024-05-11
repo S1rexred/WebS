@@ -1,16 +1,21 @@
 body{
-    background: rgba(0, 0, 0, 0.726); /* Меняется фон экрана, выбирается здесь */
+    
+    background: rgba(0, 0, 0, 0.808); /* Меняется фон экрана, выбирается здесь */
     height: 100vh; /* Высота равная 100% видимой высоты экрана */
     margin-top: 0;
-
+    
   }
-  
+  .BackG {
+    background-image: url(https://e.radikal.host/2024/05/12/164909-atmosfera-mir-astronomicheskij_obekt-nauka-elektrik-7680x4320-1.png);
+    opacity: 0.1;
+  }
 #wrapper{ /* Оболочка страницы сайта */
     width: 1080px; /* Меняется ширина страницы */
     margin: auto;
-    background:#00000054; /* Меняется задний фон страницы */
+    background:#00000075; /* Меняется задний фон страницы */
     box-shadow: rgba(0, 0, 0, 0.507) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
     color: rgb(0, 0, 0);
+    
   }
   
   /* Шапка сайта */
@@ -24,15 +29,15 @@ body{
     box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
     
   }
-  #Star {
+  /*#Star {
     text-align: top;
-    margin-bottom: -39px;
-    width: 50px;
-    }
+    margin-top: -40px;
+    font-size: 30px;
+    }*/
 
   #info_cafe {
   float:left;
-  margin:-33px 0 0 230px;
+  margin:-20px 0 0 230px;
   font-family: sans-serif;
   font-weight: bold;
   color: white;
@@ -40,7 +45,7 @@ body{
 
 #infoMenu {
   float: left;
-  margin-top: -33px;
+  margin-top: -20px;
   margin-left: 440px;
   font-family: sans-serif;
   font-weight: bold;
@@ -48,7 +53,7 @@ body{
   }
 #infoComanda {
   float: left;
-  margin-top: -35px;
+  margin-top: -20px;
   margin-left: 270px;
   font-family: sans-serif;
   font-weight: bold;
@@ -120,41 +125,40 @@ h1{ /* Заголовок сайта */
 
 
   h2 {
-margin-left: 250px;
+margin-left: 18%;
 margin-top: -75px;
 color: white;
+position: absolute;
   }
 #Work {
-
-
-
+color: #ffffff;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+position: absolute;
+margin-top: 125px;
+margin-left: -40px;
+font-size: 20px;
 }
 #suitcase {
-  width: 75px;
+  width: 83px;
   position: absolute;
-}
-.OrigWork{
-  margin-bottom: 90px;
+  margin-top: 29px;
+  margin-left: 20px;
 }
 
+
 .rectangle2 {
-  width: 850px; /* Ширина прямоугольника */
+  width: 1020px; /* Ширина прямоугольника */
   height: 400px; /* Высота прямоугольника */
   background-color: rgba(0, 0, 0, 0.137); /* Цвет фона прямоугольника */
   border: 0 solid #2980b9; /* Граница прямоугольника */
   float: left;
   margin-left: -88px;
-  margin-top: -110px;
-  border-radius: 10px
-
+  margin-top: -95px;
+  border-radius: 10px;
 }
 
-  
-.marcer{ /* Галочки маркеры меню */
-    float: left; /* Размещаем слева от текста */
-    margin: 5px 5px 0 0; /* Двигаются вверх-вправо-вниз-влево */
-  }
-  
+
   /* Контент (статья) */
 #content{ /* Блок контента */
     margin-bottom: 5px; /* Отступ блока статьи от блока подвала */
