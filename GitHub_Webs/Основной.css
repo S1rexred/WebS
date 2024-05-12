@@ -5,10 +5,7 @@ body{
     margin-top: 0;
     
   }
-  .BackG {
-    background-image: url(https://e.radikal.host/2024/05/12/164909-atmosfera-mir-astronomicheskij_obekt-nauka-elektrik-7680x4320-1.png);
-    
-  }
+
 #wrapper{ /* Оболочка страницы сайта */
     width: 1080px; /* Меняется ширина страницы */
     margin: auto;
@@ -116,7 +113,7 @@ h1{ /* Заголовок сайта */
     vertical-align: bottom;
     margin: auto;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: rgb(235, 200, 255);
     
   }
 
@@ -125,8 +122,8 @@ h1{ /* Заголовок сайта */
 
 
   h2 {
-margin-left: 18%;
-margin-top: -75px;
+margin-left: 330px;
+margin-top: -55px;
 color: white;
 position: absolute;
   }
@@ -136,7 +133,7 @@ font-family: 'Courier New', Courier, monospace;
 font-weight: bold;
 position: absolute;
 margin-top: 125px;
-margin-left: -40px;
+margin-left: -20px;
 font-size: 20px;
 }
 #suitcase {
@@ -146,7 +143,37 @@ font-size: 20px;
   margin-left: 20px;
 }
 
-
+#cafe2 {
+  width: 83px;
+  position: absolute;
+  margin-top: 29px;
+  margin-left: 370px;
+}
+#Cafe {
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 125px;
+  margin-left: 330px;
+  font-size: 20px;
+}
+#Coffee20 {
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  position: absolute;
+  margin-top: 125px;
+  margin-left: 590px;
+  font-size: 20px;
+}
+#coffee20 {
+  width: 83px;
+  position: absolute;
+  margin-top: 29px;
+  margin-left: 686px;
+  
+}
 .rectangle2 {
   width: 1020px; /* Ширина прямоугольника */
   height: 400px; /* Высота прямоугольника */
@@ -166,7 +193,6 @@ font-size: 20px;
     padding: 112px; /* Отступ текста от краёв блока */
     background: 0000004f; /* Фон статьи */
     border-radius: 5px;
-    
     height: 300px;
   }
 
