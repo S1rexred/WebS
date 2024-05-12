@@ -172,7 +172,6 @@ font-size: 20px;
   position: absolute;
   margin-top: 29px;
   margin-left: 686px;
-  
 }
 .rectangle2 {
   width: 1020px; /* Ширина прямоугольника */
@@ -184,8 +183,36 @@ font-size: 20px;
   margin-top: -95px;
   border-radius: 10px;
 }
+h3 {
+color: rgb(255, 255, 0);
+margin-top: -480px;
+margin-left: 500px;
+font-size: 30px;
+}
+hr {
+  width: 200px;
+  margin-left: 500px;
+}
+#O_nas {
+  word-wrap: break-word;
+  margin-left: 500px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 80px;
 
-
+}
+#Photo1 {
+  width: 250px;
+  margin-top: -800px;
+  margin-bottom: 120px;
+  margin-left: 29px;
+}
+#Photo2 {
+    width: 250px;
+    margin-top: -800px;
+    margin-bottom: 120px;
+    margin-left: 29px;
+}
   /* Контент (статья) */
 #content{ /* Блок контента */
     margin-bottom: 5px; /* Отступ блока статьи от блока подвала */
@@ -193,7 +220,7 @@ font-size: 20px;
     padding: 112px; /* Отступ текста от краёв блока */
     background: 0000004f; /* Фон статьи */
     border-radius: 5px;
-    height: 300px;
+    height: 700px;
   }
 
   /* Подвал */
