@@ -7,7 +7,7 @@ body{
   }
   .BackG {
     background-image: url(https://e.radikal.host/2024/05/12/164909-atmosfera-mir-astronomicheskij_obekt-nauka-elektrik-7680x4320-1.png);
-    opacity: 0.1;
+    
   }
 #wrapper{ /* Оболочка страницы сайта */
     width: 1080px; /* Меняется ширина страницы */
