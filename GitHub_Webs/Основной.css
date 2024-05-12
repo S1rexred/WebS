@@ -202,16 +202,22 @@ hr {
 
 }
 #Photo1 {
-  width: 250px;
+  width: 265px;
   margin-top: -800px;
   margin-bottom: 120px;
   margin-left: 29px;
 }
 #Photo2 {
-    width: 250px;
-    margin-top: -800px;
-    margin-bottom: 120px;
-    margin-left: 29px;
+  width: 265px;
+  margin-top: -800px;
+  margin-bottom: 40px;
+  margin-left: -89px;
+}
+#Photo3 {
+  width: 265px;
+  margin-top: -800px;
+  margin-bottom: -40px;
+  margin-left: -440px;
 }
   /* Контент (статья) */
 #content{ /* Блок контента */
@@ -222,7 +228,9 @@ hr {
     border-radius: 5px;
     height: 700px;
   }
-
+.O_nas1 {
+  margin-bottom: 700px;
+}
   /* Подвал */
 #footer{ /* Блок подвала */
     height:80px; /* Высота блока подвала */
