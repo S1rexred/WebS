@@ -113,7 +113,7 @@ h1{ /* Заголовок сайта */
     vertical-align: bottom;
     margin: auto;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(235, 200, 255);
+    color: rgb(119, 0, 155);
     
   }
 
@@ -230,7 +230,7 @@ hr {
     height: 700px;
   }
 .O_nas1 {
-  margin-bottom: 700px; /*ОТСТУП НИЖНИЙ*/
+  margin-bottom: 660px; /*ОТСТУП НИЖНИЙ*/
 }
 h4 {
   color: rgb(255, 255, 0);
@@ -243,30 +243,104 @@ font-size: 33px;
   margin-left: 79px;
   margin-top: -33px;
 }
+#DRGKom {
+  color: #ffffff;
+  margin-left: 80px;
+  font-size: 20px;
+  word-wrap: break-word;
+  margin-right: 330px;
+}
+#Ychasnik1 {
+  width: 250px;
+  margin-left: 60px;
+  max-width: 100%;
+}
+#Alex {
+  color: #ffffff;
+  font-size: 30px;
+  margin-left: 70px;
+  margin-top: 5px;
+  font-family:  Chancery L, cursive;
+}
+#Alex2 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 80px;
+  margin-top: -15px;
+  font-family: Trattatello;
+  letter-spacing: 3px;
+}
+#Ychasnik2 {
+  width: 275px;
+  margin-left: 90px;
+  max-width: 100%;
+}
+#Veronika {
+  color: #ffffff;
+  font-size: 30px;
+  margin-left: 430px;
+  margin-top: -98px;
+  font-family:  Chancery L, cursive;
+}
+#Veronika2 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 440px;
+  margin-top: -15px;
+  font-family: Trattatello;
+  letter-spacing: 3px;
+}
+#Ychasnik3 {
+  width: 250px;
+  margin-left: 90px;
+  max-width: 100%;
+}
+#Aleksandr {
+  color: #ffffff;
+  font-size: 30px;
+  margin-left: 790px;
+  margin-top: -98px;
+  font-family:  Chancery L, cursive;
+}
+#Aleksandr2 {
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 807px;
+  margin-top: -15px;
+  font-family: Trattatello;
+  letter-spacing: 3px;
+}
   /* Подвал */
 #footer{ /* Блок подвала */
     height:80px; /* Высота блока подвала */
-    background-color: 0000004f; /* Фон блока подвала */
+    background-color: rgba(48, 48, 43, 0.5); /* Фон блока подвала */
     margin-bottom: 10px; /* Отступ снизу */
     border-radius: 5px; /* Закруглённые углы */
-    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень блока */
+    box-shadow: rgba(251, 255, 0, 0.5) 0px 1px 3px; /* Тень блока */
+
   }
 .clear{ /* Запрет наплывания. Устанавливается для того, чтобы блок контента, при заполнении текстом и изображениями не наплывал на подвал */
     clear: both;
   }
+.LogFot{
+  float:left;
+  margin:20px 0 0 -850px;
+  color: rgb(119, 0, 155);
+  font-size:25px ;
+  }
 .fon{ /* Номер телефона */
     float:left; /* Разрешаем другим элементам обтекать абзац справа */
-    margin:20px 0 0 20px;
+    margin:20px 0 0 300px;
     color: white;
   }
 .fax{ /* Номер факса */
     float:left;
-    margin:20px 0 0 60px;
+    margin:20px 0 0 150px;
     color: white;
   }
 .mail{ /* Адрес E-mail */
     float:left;
-   margin:20px 0 0 60px;
+   margin:20px 0 0 150px;
    color: white;
   }
 
