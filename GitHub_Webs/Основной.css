@@ -43,23 +43,23 @@ body{
 #infoMenu {
   float: left;
   margin-top: -20px;
-  margin-left: 440px;
+  margin-left: 430px;
   font-family: sans-serif;
   font-weight: bold;
   color: white;
   }
 #infoComanda {
   float: left;
-  margin-top: -20px;
-  margin-left: 270px;
+  margin-top: -37px;
+  margin-left: 570px;
   font-family: sans-serif;
   font-weight: bold;
   color: white;
 }
 #infoContact {
   float: left;
-  margin-top: -34px;
-  margin-left: 580px;
+  margin-top: -37px;
+  margin-left: 730px;
   font-family: sans-serif;
   font-weight: bold;
   color: white;
@@ -324,18 +324,18 @@ font-size: 33px;
   }
 .LogFot{
   float:left;
-  margin:20px 0 0 -850px;
+  margin-left: 50px;
   color: rgb(119, 0, 155);
   font-size:25px ;
   }
 .fon{ /* Номер телефона */
     float:left; /* Разрешаем другим элементам обтекать абзац справа */
-    margin:20px 0 0 300px;
+    margin:20px 0 0 200px;
     color: white;
   }
 .fax{ /* Номер факса */
     float:left;
-    margin:20px 0 0 150px;
+    margin:20px 0 0 160px;
     color: white;
   }
 .mail{ /* Адрес E-mail */
