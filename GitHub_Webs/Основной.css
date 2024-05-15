@@ -159,13 +159,23 @@ font-size: 20px;
   margin-left: 330px;
   font-size: 20px;
 }
+@media (min-width: 320px) {
+  #Cafe{
+    margin-left: 370px;
+  }
+}
+@media (min-width: 670px) {
+  #Cafe{
+    margin-left: 332px;
+  }
+}
 #Coffee20 {
   color: #ffffff;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   position: absolute;
   margin-top: 125px;
-  margin-left: 590px;
+  margin-left: 690px;
   font-size: 20px;
 }
 #coffee20 {
@@ -173,6 +183,16 @@ font-size: 20px;
   position: absolute;
   margin-top: 29px;
   margin-left: 686px;
+}
+@media (min-width: 320px) {
+  #Coffee20{
+    margin-left: 680px;
+  }
+  @media (min-width: 1020px) {
+    #Coffee20{
+      margin-left: 610px;
+    }
+    
 }
 .rectangle2 {
   width: 1020px; /* Ширина прямоугольника */
