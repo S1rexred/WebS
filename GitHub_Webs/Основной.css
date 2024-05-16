@@ -185,9 +185,10 @@ font-size: 20px;
   margin-left: 686px;
 }
 @media (min-width: 320px) {
-  #Coffee20{
+  #Coffee20 {
     margin-left: 680px;
   }
+}
   @media (min-width: 1020px) {
     #Coffee20{
       margin-left: 610px;
