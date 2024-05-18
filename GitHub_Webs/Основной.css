@@ -67,7 +67,7 @@ body{
 #infoBron {
   float: left;
   margin-top: -51px;
-  margin-left: 920px;
+  margin-left: 900px;
   color: white;
   font-family: sans-serif;
   font-weight: bold;
@@ -79,7 +79,7 @@ body{
   background-color: rgb(255, 255, 255); /* Цвет фона прямоугольника */
   border: 0 solid #2980b9; /* Граница прямоугольника */
   float: right;
-  margin-right: 7px;
+  margin-right: 27px;
   margin-top: -60px;
   border-radius: 20px
 }
