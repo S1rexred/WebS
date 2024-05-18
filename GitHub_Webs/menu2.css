@@ -8,7 +8,10 @@
     transition: 0.2s;
     grid-auto-rows: 199px;
   }
-  
+  h1 {
+    font-size: 42px;
+    text-align: center;
+  }
   /* При наведении на карточку - меняем цвет тени */
   .card:hover {
     box-shadow: 4px 8px 16px rgba(255, 102, 51, 0.2);
