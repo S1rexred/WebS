@@ -1,0 +1,66 @@
+#photo1 {
+    width: 1920px;
+    margin-top: -26px;
+    margin-left: -8px;
+}
+h1 {
+    padding-left: 35px;
+    font-size: 40px;
+    vertical-align: bottom;
+    margin: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(119, 0, 155);
+    position: absolute;
+    margin-top: 20px;
+  }
+  #info_cafe {
+    float: right;
+    margin-top: 35px;
+    margin-left: 950px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    }
+  
+  #infoMenu {
+    float: right;
+    margin-top: 35px;
+    margin-left: 430px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    }
+  #infoComanda {
+    margin-top: 35px;
+    margin-left: 570px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+  }
+  #infoContact {
+    margin-top: 35px;
+    margin-left: 730px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+  }
+  #infoBron {
+    margin-top: 35px;
+    margin-left: 900px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: absolute;
+  }
+
+  #KosmosCOffee {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 450px;
+    position: absolute;
+    margin-top: 259px;
+    margin-left: 830px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+  }
