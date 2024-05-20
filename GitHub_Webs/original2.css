@@ -1,11 +1,11 @@
-#photo1 {
+  #photo1 {
     width: 1920px;
     margin-top: -26px;
     margin-left: -8px;
     background-size: contain;
     background-position: center;
 }
-h1 {
+  h1 {
     padding-left: 35px;
     font-size: 40px;
     vertical-align: bottom;
@@ -17,42 +17,48 @@ h1 {
   }
   #info_cafe {
     float: right;
-    margin-top: 35px;
-    margin-left: 950px;
+    margin-top: 50px;
+    margin-left: 1000px;
     font-family: sans-serif;
     font-weight: bold;
     position: absolute;
+    font-size: 20px;
     }
   
   #infoMenu {
     float: right;
-    margin-top: 35px;
-    margin-left: 430px;
+    margin-top: 50px;
+    margin-left: 1230px;
     font-family: sans-serif;
     font-weight: bold;
     position: absolute;
+    font-size: 20px;
+    color: black;
     }
   #infoComanda {
     margin-top: 35px;
-    margin-left: 570px;
+    margin-left: 1420px;
     font-family: sans-serif;
     font-weight: bold;
     position: absolute;
+    font-size: 20px;
   }
   #infoContact {
     margin-top: 35px;
-    margin-left: 730px;
+    margin-left: 1630px;
     font-family: sans-serif;
     font-weight: bold;
     position: absolute;
+    font-size: 20px;
   }
   #infoBron {
-    margin-top: 35px;
+    margin-top: 419px;
     margin-left: 900px;
     font-family: sans-serif;
     font-weight: bold;
     color: rgb(0, 0, 0);
     position: absolute;
+    font-size: 20px;
   }
 
   #KosmosCOffee {
@@ -61,8 +67,18 @@ h1 {
     width: 450px;
     position: absolute;
     margin-top: 259px;
-    margin-left: 830px;
-    font-size: 40px;
+    margin-left: 810px;
+    font-size: 42px;
     color: rgb(0, 0, 0);
     position: absolute;
+  }
+  #pryamougl {
+    width: 180px; /* Ширина прямоугольника */
+    height: 67px; /* Высота прямоугольника */
+    border: 3 solid #000000; /* Граница прямоугольника */
+    margin-left: 827px;
+    margin-top: 390px;
+    border-radius: 20px;
+    position: absolute;
+    color: #1d1a1a;
   }
