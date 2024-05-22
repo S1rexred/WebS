@@ -45,7 +45,7 @@
   }
   #infoContact {
     margin-top: 35px;
-    margin-left: 1630px;
+    margin-left: 1625px;
     font-family: sans-serif;
     font-weight: bold;
     position: absolute;
@@ -73,12 +73,48 @@
     position: absolute;
   }
   #pryamougl {
-    width: 180px; /* Ширина прямоугольника */
-    height: 67px; /* Высота прямоугольника */
-    border: 3 solid #000000; /* Граница прямоугольника */
-    margin-left: 827px;
-    margin-top: 390px;
-    border-radius: 20px;
-    position: absolute;
-    color: #1d1a1a;
+      width: 321px;
+      height: 100px;
+      background-color: rgba(255, 0, 0, 0);
+      position: absolute;
+      margin-top: 375px;
+      margin-left: 850px;
+      border-width: 5px;
+      border-style: double;
+      border-color: rgb(0, 0, 0);
+  }
+  #O_nas {
+    word-wrap: break-word;
+    margin-left: 200px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 80px;
+    text-align: center;
+  }
+  #Photo1 {
+    width: 265px;
+    margin-top: -800px;
+    margin-bottom: 120px;
+    margin-left: 29px;
+  }
+  #Photo2 {
+    width: 265px;
+    margin-top: -800px;
+    margin-bottom: 40px;
+    margin-left: -89px;
+  }
+  #Photo3 {
+    width: 265px;
+    margin-top: -800px;
+    margin-bottom: -40px;
+    margin-left: -440px;
+  }
+  h3 {
+    color: rgb(0, 0, 0);
+    font-size: 33px;
+    text-align: center;
+  }
+  hr {
+    width: 200px;
+    margin-left: 500px;
   }
