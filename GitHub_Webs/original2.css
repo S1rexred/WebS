@@ -88,29 +88,25 @@
     font-size: 20px;
   }
   #Photo1 {
-    width: 265px;
+    width: 355px;
     margin-top: -100px;
     margin-bottom: 120px;
-    margin-left: 29px;
+    margin-left: 159px;
   }
   #Photo2 {
-    width: 265px;
+    width: 355px;
     margin-top: -800px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     margin-left: -89px;
   }
   #Photo3 {
-    width: 265px;
-    margin-top: -800px;
-    margin-bottom: -40px;
-    margin-left: -440px;
+    width: 455px;
+    margin-top: 10px;
+    margin-bottom: -190px;
+    margin-left: -590px;
   }
   h3 {
     color: rgb(0, 0, 0);
     font-size: 33px;
     text-align: center;
-  }
-  hr {
-    width: 200px;
-    margin-left: 500px;
   }
