@@ -84,12 +84,19 @@
       border-color: rgb(0, 0, 0);
   }
   #O_nas {
-    color: #ffffff;
-    font-size: 20px;
+    color: black;
+    font-size: 23px;
+    position: absolute;
+    margin-left: 860px;
+    margin-right: 260px;
+    text-indent: 55px;
+  }
+  #brr2 {
+    text-indent: 55px;
   }
   #Photo1 {
     width: 355px;
-    margin-top: -100px;
+    margin-top: -10px;
     margin-bottom: 120px;
     margin-left: 159px;
   }
@@ -110,3 +117,65 @@
     font-size: 34px;
     text-align: center;
   }
+  #Ychasnik1 {
+    width: 250px;
+    margin-left: 60px;
+    max-width: 100%;
+  }
+  #Alex {
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 5px;
+    font-family:  Chancery L, cursive;
+  }
+  #Alex2 {
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: -15px;
+    font-family: Trattatello;
+    letter-spacing: 3px;
+  }
+  #Ychasnik2 {
+    width: 275px;
+    margin-left: 90px;
+    max-width: 100%;
+  }
+  #Veronika {
+    font-size: 30px;
+    margin-left: 430px;
+    margin-top: -98px;
+    font-family:  Chancery L, cursive;
+  }
+  #Veronika2 {
+    font-size: 20px;
+    margin-left: 440px;
+    margin-top: -15px;
+    font-family: Trattatello;
+    letter-spacing: 3px;
+  }
+  #Ychasnik3 {
+    width: 250px;
+    margin-left: 90px;
+    max-width: 100%;
+  }
+  #Aleksandr {
+    font-size: 30px;
+    margin-left: 790px;
+    margin-top: -98px;
+    font-family:  Chancery L, cursive;
+  }
+  #Aleksandr2 {
+    font-size: 20px;
+    margin-left: 807px;
+    margin-top: -15px;
+    font-family: Trattatello;
+    letter-spacing: 3px;
+  }
+  #DRGKom {
+font-size: 23px;
+  }
+h4 {
+  font-size: 34px;
+  margin-top: 230px;
+text-align: center;
+}
