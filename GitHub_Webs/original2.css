@@ -118,13 +118,13 @@
     text-align: center;
   }
   #Ychasnik1 {
-    width: 250px;
+    width: 330px;
     margin-left: 60px;
     max-width: 100%;
   }
   #Alex {
     font-size: 30px;
-    margin-left: 70px;
+    margin-left: 75px;
     margin-top: 5px;
     font-family:  Chancery L, cursive;
   }
@@ -136,7 +136,7 @@
     letter-spacing: 3px;
   }
   #Ychasnik2 {
-    width: 275px;
+    width: 364px;
     margin-left: 90px;
     max-width: 100%;
   }
@@ -154,13 +154,13 @@
     letter-spacing: 3px;
   }
   #Ychasnik3 {
-    width: 250px;
+    width: 325px;
     margin-left: 90px;
     max-width: 100%;
   }
   #Aleksandr {
     font-size: 30px;
-    margin-left: 790px;
+    margin-left: 820px;
     margin-top: -98px;
     font-family:  Chancery L, cursive;
   }
@@ -178,4 +178,35 @@ h4 {
   font-size: 34px;
   margin-top: 230px;
 text-align: center;
+}
+#footer{ /* Блок подвала */
+  height:90px; /* Высота блока подвала */
+  background-color: rgba(48, 48, 43, 0.5); /* Фон блока подвала */
+  border-radius: 5px; /* Закруглённые углы */
+  box-shadow: rgba(251, 255, 0, 0.5) 0px 1px 3px; /* Тень блока */
+
+}
+.clear{ /* Запрет наплывания. Устанавливается для того, чтобы блок контента, при заполнении текстом и изображениями не наплывал на подвал */
+  clear: both;
+}
+.LogFot{
+float:left;
+margin-left: 50px;
+color: rgb(119, 0, 155);
+font-size:25px ;
+}
+.fon{ /* Номер телефона */
+  float:left; /* Разрешаем другим элементам обтекать абзац справа */
+  margin:20px 0 0 200px;
+  color: white;
+}
+.fax{ /* Номер факса */
+  float:left;
+  margin:20px 0 0 160px;
+  color: white;
+}
+.mail{ /* Адрес E-mail */
+  float:left;
+ margin:20px 0 0 150px;
+ color: white;
 }
