@@ -91,6 +91,42 @@
     margin-right: 260px;
     text-indent: 55px;
   }
+  @media (min-width: 2560px) { //2560
+    #photo1{
+      width: 2172px
+    }
+    #KosmosCOffee {
+      margin-left: 920px;
+    }
+    #infoBron {
+      margin-left: 1000px;
+    }
+    #pryamougl {
+      margin-left:950px;
+    }
+  }
+  @media (min-width: 1440px) { //1440
+    #O_nas{
+      margin-left: 832px;
+      margin-right: 0px;
+    }
+    #KosmosCOffee {
+      margin-left: 620px;
+      color: purple;
+    }
+    #infoBron {
+      margin-left: 700px;
+    }
+    #pryamougl {
+      margin-left:650px;
+    }
+  }
+  @media (min-width: 670px) { //670
+    #O_nas{
+      margin-left: 832px;
+      margin-right: 800px;
+    }
+  }
   #brr2 {
     text-indent: 55px;
   }
@@ -142,13 +178,13 @@
   }
   #Veronika {
     font-size: 30px;
-    margin-left: 430px;
+    margin-left: 530px;
     margin-top: -98px;
     font-family:  Chancery L, cursive;
   }
   #Veronika2 {
     font-size: 20px;
-    margin-left: 440px;
+    margin-left: 540px;
     margin-top: -15px;
     font-family: Trattatello;
     letter-spacing: 3px;
@@ -166,7 +202,7 @@
   }
   #Aleksandr2 {
     font-size: 20px;
-    margin-left: 807px;
+    margin-left: 970px;
     margin-top: -15px;
     font-family: Trattatello;
     letter-spacing: 3px;
@@ -177,7 +213,7 @@ font-size: 23px;
 h4 {
   font-size: 34px;
   margin-top: 230px;
-text-align: center;
+  text-align: center;
 }
 #footer{ /* Блок подвала */
   height:90px; /* Высота блока подвала */
