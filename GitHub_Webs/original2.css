@@ -266,7 +266,7 @@ font-size:25px ;
  margin:20px 0 0 150px;
  color: white;
 }
-.burger {
+/*.burger {
   display: flex;
   position: relative;
   z-index: 50;
@@ -274,10 +274,10 @@ font-size:25px ;
   justify-content: flex-end;
   width: 50px;
   height: 18px;
-}
-.burger span {
+}*/
+/*.burger span {
   height: 2px;
   width: 80%;
   transform: scale(1);
   background-color: black;
-}
+}*/
