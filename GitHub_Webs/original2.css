@@ -116,6 +116,7 @@
     }
     #infoBron {
       margin-left: 700px;
+      color:
     }
     #pryamougl {
       margin-left:650px;
@@ -125,6 +126,25 @@
     #O_nas{
       margin-left: 832px;
       margin-right: 800px;
+    }
+  }
+  @media (min-width: 320px) { //320
+    #O_nas{
+      margin-left: 800px;
+      margin-right: 20px;
+    }
+    #KosmosCOffee {
+      margin-left: 340px;
+      color: purple;
+    }
+    #infoBron {
+      margin-left: 455px;
+      color: red;
+    }
+    #pryamougl {
+      margin-left:370px;
+      margin-top:385px;
+      border-color: grey;
     }
   }
   #brr2 {
@@ -245,4 +265,19 @@ font-size:25px ;
   float:left;
  margin:20px 0 0 150px;
  color: white;
+}
+.burger {
+  display: flex;
+  position: relative;
+  z-index: 50;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50px;
+  height: 18px;
+}
+.burger span {
+  height: 2px;
+  width: 80%;
+  transform: scale(1);
+  background-color: black;
 }
