@@ -23,6 +23,7 @@
     font-weight: bold;
     position: absolute;
     font-size: 20px;
+
     }
   
   #infoMenu {
@@ -91,86 +92,7 @@
     margin-right: 260px;
     text-indent: 55px;
   }
-  @media (min-width: 2560px) { //2560
-    #photo1{
-      width: 2172px
-    }
-    #KosmosCOffee {
-      margin-left: 920px;
-    }
-    #infoBron {
-      margin-left: 1000px;
-    }
-    #pryamougl {
-      margin-left:950px;
-    }
-  }
-  @media (min-width: 1440px) { //1440
-    #O_nas{
-      margin-left: 832px;
-      margin-right: 0px;
-    }
-    #KosmosCOffee {
-      margin-left: 620px;
-      color: purple;
-    }
-    #infoBron {
-      margin-left: 700px;
-      color:
-    }
-    #pryamougl {
-      margin-left:650px;
-    }
-  }
-  @media (min-width: 670px) { //670
-    #O_nas{
-      margin-left: 832px;
-      margin-right: 800px;
-    }
-  }
-  @media (min-width: 320px) { //320
-    #O_nas{
-      margin-left: 800px;
-      margin-right: 20px;
-    }
-    h3 {
-      margin-left: 600px;
-    }
-    #KosmosCOffee {
-      margin-left: 420px;
-      color: white;
-      margin-top: 230px;
-    }
-    #infoBron {
-      margin-left: 570px;
-      color: black;
-      margin-top:340px;
-    }
-    #pryamougl {
-      margin-left:477px;
-      margin-top:305px;
-      border-color: white;
-    }
-    #info_cafe {
-      margin-right:800px;
-    }
-    #photo1 {
-      width: 1227px;
-      height: 530px
-    }
-    #infoContact {
-      margin-left: 1000px;
-    }
-    #info_cafe {
-      margin-left: 500px;
-    }
-    #infoMenu {
-      margin-left: 650px;
-    }
-    #infoComanda {
-      margin-left:820px;
-    }
-  }
+  
   #brr2 {
     text-indent: 55px;
   }
@@ -196,6 +118,7 @@
     color: rgb(0, 0, 0);
     font-size: 34px;
     text-align: center;
+    white-space: nowrap;
   }
   #Ychasnik1 {
     width: 330px;
@@ -305,3 +228,98 @@ font-size:25px ;
   transform: scale(1);
   background-color: black;
 }*/
+@media (min-width: 2560px) { //2560
+  #photo1{
+    width: 2172px
+  }
+  #KosmosCOffee {
+    margin-left: 920px;
+  }
+  #infoBron {
+    margin-left: 1000px;
+  }
+  #pryamougl {
+    margin-left:950px;
+  }
+}
+@media (min-width: 1440px) { //1440
+  #O_nas{
+    margin-left: 832px;
+    margin-right: 0px;
+  }
+  #KosmosCOffee {
+    margin-left: 620px;
+    color: purple;
+  }
+  #infoBron {
+    margin-left: 700px;
+    color:
+  }
+  #pryamougl {
+    margin-left:650px;
+  }
+}
+@media (min-width: 670px) { //670
+  #O_nas{
+    margin-left: 832px;
+    margin-right: 800px;
+  }
+}
+@media (min-width: 320px) { //320
+  #O_nas {
+    margin-right: 300px;
+  }
+  #brr2 {
+    white-space: nowrap;
+  }
+  h3 {
+    margin-left: 500px;
+    
+  }
+  #KosmosCOffee {
+    margin-left: 420px;
+    color: white;
+    margin-top: 230px;
+  }
+  #infoBron {
+    margin-left: 570px;
+    color: black;
+    margin-top:340px;
+  }
+  #pryamougl {
+    margin-left:477px;
+    margin-top:305px;
+    border-color: white;
+  }
+  #info_cafe {
+    margin-right:800px;
+    white-space: nowrap;
+  }
+  #photo1 {
+    width: 1227px;
+    height: 530px
+  }
+  #infoContact {
+    margin-left: 1000px;
+  }
+  #info_cafe {
+    margin-left: 500px;
+  }
+  #infoMenu {
+    margin-left: 680px;
+  }
+  #infoComanda {
+    margin-left:840px;
+  }
+  #Photo1 {
+    margin-left: 90px;
+  }
+  #Photo2 {
+    margin-left: 300px;
+  }
+  #Photo3 {
+    margin-left: 100px;
+    margin-top: -270px;
+  }
+
+}
