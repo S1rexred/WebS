@@ -296,7 +296,7 @@ font-size:25px ;
     white-space: nowrap;
   }
   #photo1 {
-    width: 827px;
+    width: 910px;
     height: 430px
   }
   #infoContact {
@@ -315,25 +315,25 @@ font-size:25px ;
   }
   #Photo1 {
     margin-left: -8px;
-    margin-top: -600px;
+    margin-top: -530px;
     width: 260px;
     position: absolute;
   }
   #Photo2 {
     margin-left: 150px;
-    margin-bottom: 250px;
+    margin-bottom: 180px;
     width: 260px;
   }
   #Photo3 {
     margin-left: -5px;
-    margin-bottom: -180px;
+    margin-bottom: -200px;
     width: 260px;
-    margin-top: -400px;
+    margin-top: -340px;
     position: absolute;
   }
   #O_nas {
-    margin-left:420px;
-    margin-right: -460px;
+    margin-left:435px;
+    margin-right: -520px;
   }
   h4 {
     margin-top: 20px;
