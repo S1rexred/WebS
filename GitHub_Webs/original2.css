@@ -272,22 +272,23 @@ font-size:25px ;
     white-space: nowrap;
   }
   h3 {
-    margin-left: 500px;
-    
+    margin-left: 260px;
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
   #KosmosCOffee {
-    margin-left: 420px;
+    margin-left: 210px;
     color: white;
-    margin-top: 230px;
+    margin-top: 150px;
   }
   #infoBron {
-    margin-left: 570px;
+    margin-left: 360px;
     color: black;
-    margin-top:340px;
+    margin-top:280px;
   }
   #pryamougl {
-    margin-left:477px;
-    margin-top:305px;
+    margin-left:277px;
+    margin-top:245px;
     border-color: white;
   }
   #info_cafe {
@@ -295,38 +296,48 @@ font-size:25px ;
     white-space: nowrap;
   }
   #photo1 {
-    width: 1227px;
-    height: 530px
+    width: 827px;
+    height: 430px
   }
   #infoContact {
-    margin-left: 1000px;
+    margin-left: 360px;
+    margin-top: 32px;
   }
   #info_cafe {
-    margin-left: 500px;
+    margin-left: 300px;
+    opacity: 0.0;
   }
   #infoMenu {
-    margin-left: 680px;
+    margin-left: 495px;
   }
   #infoComanda {
-    margin-left:840px;
+    margin-left:640px;
   }
   #Photo1 {
-    margin-left: 10px;
-    margin-top:-400px;
+    margin-left: -8px;
+    margin-top: -600px;
+    width: 260px;
+    position: absolute;
   }
   #Photo2 {
-    margin-left: 200px;
-    margin-top:-500px;
+    margin-left: 150px;
+    margin-bottom: 250px;
+    width: 260px;
   }
   #Photo3 {
     margin-left: -5px;
-    margin-top:-500px;
+    margin-bottom: -180px;
+    width: 260px;
+    margin-top: -400px;
+    position: absolute;
   }
   #O_nas {
-    margin-left:590px;
-    margin-right: -860px;
+    margin-left:420px;
+    margin-right: -460px;
   }
   h4 {
-    
+    margin-top: 20px;
+    margin-left: 200px;
+    white-space: nowrap;
   }
 }
