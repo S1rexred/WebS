@@ -182,11 +182,12 @@ h4 {
   text-align: center;
 }
 #footer{ /* Блок подвала */
-  height:90px; /* Высота блока подвала */
+  height:140px; /* Высота блока подвала */
   background-color: rgba(48, 48, 43, 0.5); /* Фон блока подвала */
   border-radius: 5px; /* Закруглённые углы */
   box-shadow: rgba(251, 255, 0, 0.5) 0px 1px 3px; /* Тень блока */
-
+  margin-bottom: 0;
+  padding: 0;
 }
 .clear{ /* Запрет наплывания. Устанавливается для того, чтобы блок контента, при заполнении текстом и изображениями не наплывал на подвал */
   clear: both;
@@ -314,22 +315,31 @@ font-size:25px ;
     margin-left:640px;
   }
   #Photo1 {
-    margin-left: -8px;
-    margin-top: -530px;
+    //margin-left: -8px;
+    //margin-top: -230px;
     width: 260px;
     position: absolute;
+    margin: 0 auto;
+    top: 500px;
   }
   #Photo2 {
-    margin-left: 150px;
-    margin-bottom: 180px;
+    //margin-left: 150px;
+    //margin-bottom: 180px;
     width: 260px;
+    margin: 0 auto;
+    top: 570px;
+    position: absolute;
+    left: 160px;
   }
   #Photo3 {
-    margin-left: -5px;
-    margin-bottom: -200px;
+    //margin-left: -5px;
+    //margin-bottom: 20px;
     width: 260px;
-    margin-top: -340px;
+    //margin-top: 40px;
     position: absolute;
+    margin: 0 auto;
+    top: 710px;
+    left: 10px;
   }
   #O_nas {
     margin-left:435px;
@@ -339,5 +349,8 @@ font-size:25px ;
     margin-top: 20px;
     margin-left: 200px;
     white-space: nowrap;
+  }
+  #footer {
+    width: 860px;
   }
 }
