@@ -11,7 +11,7 @@
     vertical-align: bottom;
     margin: auto;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(119, 0, 155);
+    color: rgb(195, 0, 255);
     position: absolute;
     margin-top: 20px;
   }
@@ -67,7 +67,7 @@
     width: 450px;
     position: absolute;
     margin-top: 259px;
-    margin-left: 810px;
+    margin-left: 800px;
     font-size: 42px;
     color: rgb(0, 0, 0);
     position: absolute;
@@ -135,16 +135,17 @@
     }
     #KosmosCOffee {
       margin-left: 340px;
-      color: purple;
+      color: rgb(255, 0, 255);
     }
     #infoBron {
       margin-left: 455px;
-      color: red;
+      color: rgb(255, 254, 254);
     }
-    #pryamougl {
+    #pryamougl 
+    {
       margin-left:370px;
       margin-top:385px;
-      border-color: grey;
+      border-color: rgb(255, 255, 255);
     }
   }
   #brr2 {
