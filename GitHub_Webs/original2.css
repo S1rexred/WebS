@@ -297,7 +297,7 @@ font-size:25px ;
     white-space: nowrap;
   }
   #photo1 {
-    width: 910px;
+    width: 891px;
     height: 430px
   }
   #infoContact {
@@ -343,7 +343,8 @@ font-size:25px ;
   }
   #O_nas {
     margin-left:435px;
-    margin-right: -520px;
+    margin-right: -490px;
+    overflow: auto;
   }
   h4 {
     margin-top: 20px;
@@ -356,4 +357,11 @@ font-size:25px ;
   #DRGKom {
     margin-right: -500px;
   }
+}
+//@media screen and (min-width: 400px) and (max-width: 2560px) {
+//#photo1 {
+//width: 1800px;
+//height: 500px;
+}
+
 }
