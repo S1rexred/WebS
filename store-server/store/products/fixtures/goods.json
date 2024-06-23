@@ -1,0 +1,170 @@
+[{
+        "model": "products.products",
+        "pk": 1,
+        "fields": {
+            "name": "Капучино",
+            "slug": "kapuchino",
+            "description": "",
+            "image": "main_images/c4cae8c3603711ee9fec3a7ca4cc1bdc_upscaled.jpg",
+            "price": "130.00",
+            "discount": "0.00",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 2,
+        "fields": {
+            "name": "Раф",
+            "slug": "raf",
+            "description": "",
+            "image": "main_images/18-05-2024-18-24-23.png",
+            "price": "180.00",
+            "discount": "0.00",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 3,
+        "fields": {
+            "name": "Эспрессо",
+            "slug": "espresso",
+            "description": "",
+            "image": "main_images/18-05-2024-17-49-24.png",
+            "price": "100.00",
+            "discount": "0.00",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 4,
+        "fields": {
+            "name": "Латте",
+            "slug": "latte",
+            "description": "",
+            "image": "main_images/18-05-2024-17-24.png",
+            "price": "150.00",
+            "discount": "0.00",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 5,
+        "fields": {
+            "name": "Американо",
+            "slug": "amerikano",
+            "description": "",
+            "image": "main_images/18-05-2024-18-07-24.png",
+            "price": "150.00",
+            "discount": "0.00",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 6,
+        "fields": {
+            "name": "Айс-кофе",
+            "slug": "ajs-kofe",
+            "description": "",
+            "image": "main_images/18-05-2024-18-14-59.png",
+            "price": "160.00",
+            "discount": "0.00",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 7,
+        "fields": {
+            "name": "Мокко",
+            "slug": "mokko",
+            "description": "",
+            "image": "",
+            "price": "160.00",
+            "discount": "0.00",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 8,
+        "fields": {
+            "name": "Фраппе",
+            "slug": "frappe",
+            "description": "",
+            "image": "main_images/18-05-2024-18-28-49.png",
+            "price": "190.00",
+            "discount": "0.00",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 9,
+        "fields": {
+            "name": "Чизкейк",
+            "slug": "chizkejk",
+            "description": "",
+            "image": "main_images/unnamed.jpg",
+            "price": "310.00",
+            "discount": "0.00",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 10,
+        "fields": {
+            "name": "Вафли венские",
+            "slug": "vafli-venskie",
+            "description": "",
+            "image": "main_images/depositphotos_40459209-stock-photo-belgium-waffles.png",
+            "price": "270.00",
+            "discount": "0.00",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 11,
+        "fields": {
+            "name": "Торт",
+            "slug": "tort",
+            "description": "",
+            "image": "main_images/1683919592_mur-mur-top-p-kusochek-torta-kartinka-krasivo-32.png",
+            "price": "350.00",
+            "discount": "0.00",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 12,
+        "fields": {
+            "name": "Печенье",
+            "slug": "pechene",
+            "description": "",
+            "image": "main_images/CE0B95F8-0884-4973-9135-FB36171FE0A1-1.png",
+            "price": "110.00",
+            "discount": "0.00",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 13,
+        "fields": {
+            "name": "Тирамису",
+            "slug": "tiramisu",
+            "description": "",
+            "image": "main_images/orig_kcQLdNw.png",
+            "price": "370.00",
+            "discount": "0.00",
+            "quantity": 10
+        }
+    }
+]
