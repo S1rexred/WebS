@@ -7,6 +7,9 @@
 <title>Космос Coffee</title>
 <link rel="stylesheet" href="original2.css"/>
 <link rel="menu" href="menu2.html">
+<link rel="stylesheet" href="burger.css">
+<link rel="stylesheet" href="reset.css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 </head>
 <body>
   <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
@@ -41,12 +44,31 @@
   </script>-->
     <header>
         <h1>Космоc Coffee</h1>
-      <div class="header_list">
-      <li><a href="menu2.html" id="infoMenu">Меню</a></li>
-      <p id="infoComanda">Команда</p>
-      <p id="infoContact">Контакты</p>
-      <p id="KosmosCOffee">Космический кофе</p>
-      </div>
+        <header>
+          <nav>
+            <a href="/">
+              <img src="./Untitled70_20231129182816.png" alt="">
+            </a>
+            <input id="burger-toggle" type="checkbox">
+            <label for="burger-toggle">
+              <span></span>
+            </label>
+            <ul class="header__list">
+              <li>
+                <a href="/" class="header__link">Главная</a>
+              </li>
+              <li>
+                <a href="/" class="header__link">Видео</a>
+              </li>
+              <li>
+                <a href="/" class="header__link">Плейлисты</a>
+              </li>
+              <li>
+                <a href="/" class="header__link">Сообщество</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
       <div class="rectangle"></div>
       <div id="pryamougl"></div>
       <p id="infoBron">Забронировать столик</p>
