@@ -10,6 +10,13 @@
 <link rel="stylesheet" href="burger.css">
 <link rel="stylesheet" href="reset.css">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+/>
 </head>
 <body>
   <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
@@ -43,31 +50,24 @@
   })
   </script>-->
     <header>
-        <h1>Космоc Coffee</h1>
-        <header>
-          <nav>
-            <a href="/">
-              <img src="./Untitled70_20231129182816.png" alt="">
-            </a>
-            <input id="burger-toggle" type="checkbox">
-            <label for="burger-toggle">
-              <span></span>
-            </label>
-            <ul class="header__list">
-              <li>
-                <a href="/" class="header__link">Главная</a>
-              </li>
-              <li>
-                <a href="/" class="header__link">Видео</a>
-              </li>
-              <li>
-                <a href="/" class="header__link">Плейлисты</a>
-              </li>
-              <li>
-                <a href="/" class="header__link">Сообщество</a>
-              </li>
+      <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#food">Меню</a></li>
+                <li><a href="#food-menu">Контакты</a></li>
+
             </ul>
-          </nav>
+            <h1 class="logo">Космос Coffee</h1>
+        </div>
+    </nav>
         </header>
       <div class="rectangle"></div>
       <div id="pryamougl"></div>
