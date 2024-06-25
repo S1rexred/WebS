@@ -18,8 +18,29 @@ body {
 
 .main-title{ 
 letter-spacing: 2px;
-font-size: 57px;
+font-size: 37px;
 margin-top: 103px;
+}
+
+.showcase-area {
+  height: 60vh;
+  background: linear-gradient(
+      rgba(240, 240, 240, 0.144),
+      rgba(255, 255, 255, 0.336)
+    ),
+    url("https://e.radikal.host/2024/06/25/2024-06-25_16-51-41.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.6rem;
 }
 
 .bytn {
@@ -253,26 +274,71 @@ margin-top: 103px;
     margin: 0;
   }
 }
+@media (max-width: 500px) {
+  html {
+    font-size: 65%;
+  }
 
-.showcase-area {
-  height: 60vh;
-  background: linear-gradient(
-      rgba(240, 240, 240, 0.144),
-      rgba(255, 255, 255, 0.336)
-    ),
-    url("https://e.radikal.host/2024/06/25/2024-06-25_16-51-41.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  .navbar .menu-items li{
+      font-size: 1.6rem;
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .food-menu-container img {
+    margin: auto;
+  }
+
+  .food-menu-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-container {
+    width: 90%;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-img {
+    width: 90%;
+    margin: 3rem auto;
+  }
+
+  .logo {
+    position: absolute;
+    top: 06px;
+    right: 15px;
+    font-size: 3rem;
+  }
+
+  .navbar .menu-items li {
+    margin-bottom: 2.5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
 }
 
-.showcase-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  font-size: 1.6rem;
+@media (min-width: 769px) and (max-width: 1200px) {
+  .img-container h3 {
+    font-size: 1.5rem;
+  }
+
+  .img-container .btn {
+    font-size: 0.7rem;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .showcase-area {
+    height: 50vmax;
+  }
 }
 
 
@@ -428,153 +494,4 @@ font-size:25px ;
  margin:20px 0 0 150px;
  color: white;
 }
-/*.burger {
-  display: flex;
-  position: relative;
-  z-index: 50;
-  align-items: center;
-  justify-content: flex-end;
-  width: 50px;
-  height: 18px;
-}*/
-/*.burger span {
-  height: 2px;
-  width: 80%;
-  transform: scale(1);
-  background-color: black;
-}*/
-@media (min-width: 2560px) { //2560
-  #photo1{
-    width: 2172px
-  }
-  #KosmosCOffee {
-    margin-left: 920px;
-  }
-  #infoBron {
-    margin-left: 1000px;
-  }
-  #pryamougl {
-    margin-left:950px;
-  }
-}
-@media (min-width: 1440px) { //1440
-  #O_nas{
-    margin-left: 832px;
-    margin-right: 0px;
-  }
-  #KosmosCOffee {
-    margin-left: 620px;
-    color: purple;
-  }
-  #infoBron {
-    margin-left: 700px;
-    color:
-  }
-  #pryamougl {
-    margin-left:650px;
-  }
-}
-@media (min-width: 670px) { //670
-  #O_nas{
-    margin-left: 832px;
-    margin-right: 800px;
-  }
-}
-@media (min-width: 320px) { //320
-  #O_nas {
-    margin-right: 300px;
-  }
-  #brr2 {
-    white-space: nowrap;
-  }
-  h3 {
-    margin-left: 260px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-  }
-  #KosmosCOffee {
-    margin-left: 210px;
-    color: white;
-    margin-top: 150px;
-  }
-  #infoBron {
-    margin-left: 360px;
-    color: black;
-    margin-top:280px;
-  }
-  #pryamougl {
-    margin-left:277px;
-    margin-top:245px;
-    border-color: white;
-  }
-  #info_cafe {
-    margin-right:800px;
-    white-space: nowrap;
-  }
-  #photo1 {
-    width: 891px;
-    height: 430px
-  }
-  #infoContact {
-    margin-left: 360px;
-    margin-top: 32px;
-  }
-  #info_cafe {
-    margin-left: 300px;
-    opacity: 0.0;
-  }
-  #infoMenu {
-    margin-left: 495px;
-  }
-  #infoComanda {
-    margin-left:640px;
-  }
-  #Photo1 {
-    //margin-left: -8px;
-    //margin-top: -230px;
-    width: 260px;
-    position: absolute;
-    margin: 0 auto;
-    top: 500px;
-  }
-  #Photo2 {
-    //margin-left: 150px;
-    //margin-bottom: 180px;
-    width: 260px;
-    margin: 0 auto;
-    top: 570px;
-    position: absolute;
-    left: 160px;
-  }
-  #Photo3 {
-    //margin-left: -5px;
-    //margin-bottom: 20px;
-    width: 260px;
-    //margin-top: 40px;
-    position: absolute;
-    margin: 0 auto;
-    top: 710px;
-    left: 10px;
-  }
-  #O_nas {
-    margin-left:435px;
-    margin-right: -490px;
-    overflow: auto;
-  }
-  h4 {
-    margin-top: 20px;
-    margin-left: 200px;
-    white-space: nowrap;
-  }
-  #footer {
-    width: 860px;
-  }
-  #DRGKom {
-    margin-right: -500px;
-  }
-}
-//@media screen and (min-width: 400px) and (max-width: 2560px) {
-#photo1 {
-width: 1800px;
-height: 500px;
-}
+
