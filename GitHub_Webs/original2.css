@@ -22,7 +22,7 @@ font-size: 37px;
 margin-top: 103px;
 }
 
-.showcase-area {
+#showcase-area {
   height: 60vh;
   background: linear-gradient(
       rgba(240, 240, 240, 0.144),
@@ -32,6 +32,7 @@ margin-top: 103px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  weight: 2.3rem;
 }
 
 .showcase-container {
@@ -43,26 +44,7 @@ margin-top: 103px;
   font-size: 1.6rem;
 }
 
-.bytn {
-  -webkit-border-radius: 21;
-  -moz-border-radius: 21;
-  border-radius: 30px;
-  font-family: Arial;
-  font-weight: 700;
-  color: black;
-  font-size: 24px;
-  background: #B0C4DE;
-  padding: 30px 30px 30px 30px;
-  border: solid #1f628d 3px;
-  text-decoration: none;
-  transition: font-size 0.2s;
- }
- 
- .bytn:hover {
-  background: #406175;
-  text-decoration: none;
-  font-size: 27px;
- }
+
 
 /* ///////////..utility classes../////////// */
 
@@ -87,11 +69,13 @@ margin-top: 103px;
 .btn-primary {
   color: #fff;
   background: #16a083;
+  font-weight: 700;
+  border-radius: 7px;
 }
 
 .btn-primary:hover {
   background: #117964;
-  transition: background 0.3s ease-in-out;
+  transition: background 0.4s ease-in-out;
 }
 
 /* ............/navbar/............ *
@@ -150,6 +134,72 @@ margin-top: 103px;
   font-size: 2.3rem;
   margin-bottom: 0.5rem;
 }
+h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  color: #555;
+}
+
+#about {
+  padding: 50px 0;
+  background: #f5f5f7;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.about-img {
+  flex: 1 1 400px;
+  padding: 30px;
+  position: relative;
+  //transform: translateX(150%);
+  //animation: about-img-animation 1s ease-in-out forwards;
+}
+
+.about-text {
+  flex: 1 1 400px;
+  padding: 30px;
+  margin: auto;
+  //transform: translate(-150%);
+  //animation: about-text-animation 1s ease-in-out forwards;
+}
+
+.about-img img {
+  height: 410px;
+  max-width: 100%;
+  
+}
+
+.Photo1 {
+  position: absolute;
+  z-index: 1;
+}
+ 
+.Photo2 {
+  position: absolute;
+  left: 300px;
+  top: 90px;
+  z-index: 2;
+}
+
+.Photo3 {
+  position: absolute;
+  top: 300px;
+  left: 90px;
+  z-index: 3;
+}
+
 @media (max-width: 768px) {
   .navbar {
     opacity: 0.95;
@@ -274,6 +324,7 @@ margin-top: 103px;
     margin: 0;
   }
 }
+
 @media (max-width: 500px) {
   html {
     font-size: 65%;
@@ -340,117 +391,83 @@ margin-top: 103px;
     height: 50vmax;
   }
 }
-
-
-
-  #KosmosCOffee {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    width: 450px;
-    position: absolute;
-    margin-top: 259px;
-    margin-left: 810px;
-    font-size: 42px;
-    color: rgb(0, 0, 0);
-    position: absolute;
+@media (min-width: 320px) and (max-width: 374px) {
+  .main-title {
+    font-size: 29px;
+    
   }
-  #pryamougl {
-      width: 321px;
-      height: 100px;
-      background-color: rgba(255, 0, 0, 0);
-      position: absolute;
-      margin-top: 375px;
-      margin-left: 850px;
-      border-width: 5px;
-      border-style: double;
-      border-color: rgb(0, 0, 0);
+}
+@media(max-width: 1354px) {
+  .Photo1 {
+    weight: 0px;
   }
-  #O_nas {
-    color: black;
-    font-size: 23px;
-    margin-left: 860px;
-    margin-right: 260px;
-    text-indent: 55px;
+   
+  .Photo2 {
+
   }
   
+  .Photo3 {
+
+  }
+}
+
+
+
+
   #brr2 {
     text-indent: 55px;
   }
   #Photo1 {
     width: 355px;
-    margin-top: -10px;
-    margin-bottom: 120px;
-    margin-left: 159px;
+
   }
   #Photo2 {
     width: 355px;
-    margin-top: -800px;
-    margin-bottom: 60px;
-    margin-left: -89px;
+
   }
   #Photo3 {
     width: 455px;
-    margin-top: 10px;
-    margin-bottom: -190px;
-    margin-left: -590px;
+
   }
   h3 {
     color: rgb(0, 0, 0);
     font-size: 34px;
-    text-align: center;
-    white-space: nowrap;
+
   }
   #Ychasnik1 {
     width: 330px;
-    margin-left: 60px;
-    max-width: 100%;
+
   }
   #Alex {
     font-size: 30px;
-    margin-left: 75px;
-    margin-top: 5px;
-    font-family:  Chancery L, cursive;
+ 
   }
   #Alex2 {
     font-size: 20px;
-    margin-left: 80px;
-    margin-top: -15px;
     font-family: Trattatello;
-    letter-spacing: 3px;
   }
   #Ychasnik2 {
     width: 364px;
-    margin-left: 90px;
-    max-width: 100%;
+
   }
   #Veronika {
     font-size: 30px;
-    margin-left: 530px;
-    margin-top: -98px;
     font-family:  Chancery L, cursive;
   }
   #Veronika2 {
     font-size: 20px;
-    margin-left: 540px;
-    margin-top: -15px;
     font-family: Trattatello;
-    letter-spacing: 3px;
   }
   #Ychasnik3 {
     width: 325px;
-    margin-left: 90px;
-    max-width: 100%;
   }
   #Aleksandr {
     font-size: 30px;
-    margin-left: 970px;
-    margin-top: -98px;
+
     font-family:  Chancery L, cursive;
   }
   #Aleksandr2 {
     font-size: 20px;
-    margin-left: 970px;
-    margin-top: -15px;
     font-family: Trattatello;
     letter-spacing: 3px;
   }
@@ -459,39 +476,7 @@ font-size: 23px;
   }
 h4 {
   font-size: 34px;
-  margin-top: 230px;
   text-align: center;
 }
-#footer{ /* Блок подвала */
-  height:140px; /* Высота блока подвала */
-  background-color: rgba(48, 48, 43, 0.5); /* Фон блока подвала */
-  border-radius: 5px; /* Закруглённые углы */
-  box-shadow: rgba(251, 255, 0, 0.5) 0px 1px 3px; /* Тень блока */
-  margin-bottom: 0;
-  padding: 0;
-}
-.clear{ /* Запрет наплывания. Устанавливается для того, чтобы блок контента, при заполнении текстом и изображениями не наплывал на подвал */
-  clear: both;
-}
-.LogFot{
-float:left;
-margin-left: 50px;
-color: rgb(119, 0, 155);
-font-size:25px ;
-}
-.fon{ /* Номер телефона */
-  float:left; /* Разрешаем другим элементам обтекать абзац справа */
-  margin:20px 0 0 200px;
-  color: white;
-}
-.fax{ /* Номер факса */
-  float:left;
-  margin:20px 0 0 160px;
-  color: white;
-}
-.mail{ /* Адрес E-mail */
-  float:left;
- margin:20px 0 0 150px;
- color: white;
-}
+
 
