@@ -19,6 +19,8 @@ referrerpolicy="no-referrer"
 />
 <link rel="js" href="основа.js">
 <link rel="stylesheet" href="burger.css">
+<link rel="stylesheet" href="slider.css">
+<link rel="stylesheet" href="sliderJS.js">
 </head>
 <body>
   <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
@@ -63,7 +65,7 @@ referrerpolicy="no-referrer"
             <ul class="menu-items">
                 <li><a href="#home">Главная</a></li>
                 <li><a href="#about">О нас</a></li>
-                <li><a href="#food">Меню</a></li>
+                <li><a href="menu2.html">Меню</a></li>
                 <li><a href="#food-menu">Контакты</a></li>
 
             </ul>
@@ -84,7 +86,7 @@ referrerpolicy="no-referrer"
               <h3>О нас и нашем кафе</h3>
               <p>
                 Мы создали наше кафе для своих, каждого гостя мы встречаем, как своего старого знакомого. У нас можно быстро и очень вкусно пообедать днем и выпить кофе и коктейли. Можно неспешно и нежно провести романтический ужин. Можно шумно и весело отметить любое торжество: ваши гости с удовольствием и благодарностью будут вспоминать этот чудесный праздник
-      <br>Наша мечта — создать место, куда сегодняшние гости будут возвращаться со своими детьми и внуками за атмосферой уюта и гостеприимства и неизменно исключительной чашкой кофе!</br>
+              <br>Наша мечта — создать место, куда сегодняшние гости будут возвращаться со своими детьми и внуками за атмосферой уюта и гостеприимства и неизменно исключительной чашкой кофе!</br>
               </p>
             </div>
             <div class="about-img">
@@ -94,8 +96,30 @@ referrerpolicy="no-referrer"
             </div>
           </div>
         </section>
-       <div>
-        <!-- <h4>Наша дружная команда</h4>
+
+        <section class="swiper-container">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image:url(https://e.radikal.host/2024/06/25/2024-06-25_16-51-41.png)">
+                  <div class="swiper-content">
+                      <p class="swiper-title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Заголовок</p>
+                      <span class="swiper-caption" data-swiper-parallax="-20%">Описание слайда</span>
+                  </div>
+              </div>
+              <!-- Еще слайды -->
+              <div class="swiper-slide" style="background-image:url(https://e.radikal.host/2024/05/13/image-18.png)">
+                  <div class="swiper-content">
+                      <p class="swiper-title" data-swiper-parallax="-30%" data-swiper-parallax-scale=".7">Заголовок</p>
+                      <span class="swiper-caption" data-swiper-parallax="-20%">Описание слайда</span>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev swiper-button-white"></div>
+          <div class="swiper-button-next swiper-button-white"></div>
+      </section>
+
+       <!--<div>
+        <h4>Наша дружная команда</h4>
         <p id="DRGKom">Мы настоящая кофейная семья профессиналов своего дела, где каждый человек — личность, объединяет которых исключительный кофе и стремление развивать культуру спешиалти кофе.</p>
         <img src="https://e.radikal.host/2024/05/13/image-17eaadf0561037cfc7.png" id="Ychasnik1" alt="image-17eaadf0561037cfc7.png">
         <img src="https://e.radikal.host/2024/05/13/image-18.png" id="Ychasnik2" alt="image-18.png">
