@@ -96,6 +96,10 @@ h3 {
       z-index: 1;
     }
   
+    #about p {
+      font-size: 19px;
+    }
+
   }
   
   @media (max-width: 443px) {
@@ -133,9 +137,9 @@ h3 {
     .Photo1 {
       max-width: 100%;
       height: auto;
-      width: 200px;
-      max-height: 210px;
-      left: -20px;
+      width: 185px;
+      max-height: 195px;
+      left: -10px;
       position: absolute;
       z-index: 1;
     }
@@ -143,7 +147,7 @@ h3 {
     .Photo2 {
       max-width: 100%;
       height: auto;
-      width: 200px;
+      width: 190px;
       max-height: 210px;
       left: 104px;
       position: absolute;
@@ -161,4 +165,28 @@ h3 {
       z-index: 1;
     }
   
+  }
+
+  @media (min-width: 889px) and (max-width: 1023px) {
+    .Photo2 {
+      max-width: 100%;
+      height: auto;
+      width: 300px;
+      max-height: 300px;
+      left: 133px;
+      position: absolute;
+      z-index: 1;
+    }
+  }
+
+  @media (max-width: 355px) {
+    .Photo2 {
+      max-width: 100%;
+      height: auto;
+      width: 180px;
+      max-height: 180px;
+      left: 133px;
+      position: absolute;
+      z-index: 1;
+    }
   }

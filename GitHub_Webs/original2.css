@@ -160,97 +160,17 @@ margin-top: 103px;
     margin: 0;
   }
 }
-@media (max-width: 539px) {
-  .Photo1 {
-    max-width: 100%;
-    height: auto;
-    width: 220px;
-    max-height: 230px;
-  }
 
+@media (min-width: 889px) and (max-width: 1023px) {
   .Photo2 {
-    max-width: 100%;
+    max-width: 10%;
     height: auto;
-    width: 200px;
-    max-height: 230px;
-  }
-
-  .Photo3 {
-    max-width: 100%;
-    height: auto;
-    width: 220px;
-    max-height: 230px;
-    left: 50px;
-    top: 200px;
-    position: absolute;
-    z-index: 1;
-  }
-
-}
-
-@media (max-width: 443px) {
-  .Photo1 {
-    max-width: 100%;
-    height: auto;
-    width: 200px;
-    max-height: 210px;
-  }
-
-  .Photo2 {
-    max-width: 100%;
-    height: auto;
-    width: 200px;
-    max-height: 210px;
+    width: 190px;
+    max-height: 200px;
     left: 133px;
     position: absolute;
     z-index: 1;
   }
-
-  .Photo3 {
-    max-width: 100%;
-    height: auto;
-    width: 200px;
-    max-height: 210px;
-    left: 50px;
-    top: 190px;
-    position: absolute;
-    z-index: 1;
-  }
-
-}
-
-@media (max-width: 329px) {
-  .Photo1 {
-    max-width: 100%;
-    height: auto;
-    width: 200px;
-    max-height: 210px;
-    left: -20px;
-    position: absolute;
-    z-index: 1;
-  }
-
-  .Photo2 {
-    max-width: 100%;
-    height: auto;
-    width: 200px;
-    max-height: 210px;
-    left: 104px;
-    position: absolute;
-    z-index: 1;
-  }
-
-  .Photo3 {
-    max-width: 100%;
-    height: auto;
-    width: 200px;
-    max-height: 210px;
-    left: 5px;
-    top: 190px;
-    position: absolute;
-    z-index: 1;
-  }
-
 }
 
 @media (max-width: 500px) {
