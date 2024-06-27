@@ -196,6 +196,12 @@ h3 {
   margin: auto;
 }
 
+@media (max-width: 888px) {
+  #testimonials{
+    margin-top: 340px;
+  }
+}
+
 
 @media (max-width: 768px) {
   .food-container {
