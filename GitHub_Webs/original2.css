@@ -140,6 +140,7 @@ margin-top: 103px;
   .testimonial-box {
     object-fit: cover; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -158,18 +159,6 @@ margin-top: 103px;
 
   .img-container {
     margin: 0;
-  }
-}
-
-@media (min-width: 889px) and (max-width: 1023px) {
-  .Photo2 {
-    max-width: 10%;
-    height: auto;
-    width: 190px;
-    max-height: 200px;
-    left: 133px;
-    position: absolute;
-    z-index: 1;
   }
 }
 
