@@ -202,6 +202,11 @@ h3 {
   }
 }
 
+@media (max-width: 750px ) {
+  .testimonial-box {
+    object-fit: cover;
+  }
+}
 
 @media (max-width: 768px) {
   .food-container {
