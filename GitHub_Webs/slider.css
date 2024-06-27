@@ -69,3 +69,96 @@ h3 {
     width: 310px;
     max-height: 310px;
   }
+
+  @media (max-width: 539px) {
+    .Photo1 {
+      max-width: 100%;
+      height: auto;
+      width: 220px;
+      max-height: 230px;
+    }
+  
+    .Photo2 {
+      max-width: 100%;
+      height: auto;
+      width: 200px;
+      max-height: 230px;
+    }
+  
+    .Photo3 {
+      max-width: 100%;
+      height: auto;
+      width: 220px;
+      max-height: 230px;
+      left: 50px;
+      top: 200px;
+      position: absolute;
+      z-index: 1;
+    }
+  
+  }
+  
+  @media (max-width: 443px) {
+    .Photo1 {
+      max-width: 100%;
+      height: auto;
+      width: 200px;
+      max-height: 210px;
+    }
+  
+    .Photo2 {
+      max-width: 100%;
+      height: auto;
+      width: 200px;
+      max-height: 210px;
+      left: 133px;
+      position: absolute;
+      z-index: 1;
+    }
+  
+    .Photo3 {
+      max-width: 100%;
+      height: auto;
+      width: 200px;
+      max-height: 210px;
+      left: 50px;
+      top: 190px;
+      position: absolute;
+      z-index: 1;
+    }
+  
+  }
+  
+  @media (max-width: 329px) {
+    .Photo1 {
+      max-width: 100%;
+      height: auto;
+      width: 200px;
+      max-height: 210px;
+      left: -20px;
+      position: absolute;
+      z-index: 1;
+    }
+  
+    .Photo2 {
+      max-width: 100%;
+      height: auto;
+      width: 200px;
+      max-height: 210px;
+      left: 104px;
+      position: absolute;
+      z-index: 1;
+    }
+  
+    .Photo3 {
+      max-width: 100%;
+      height: auto;
+      width: 200px;
+      max-height: 210px;
+      left: 5px;
+      top: 190px;
+      position: absolute;
+      z-index: 1;
+    }
+  
+  }

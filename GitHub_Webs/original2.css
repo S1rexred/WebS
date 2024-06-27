@@ -126,6 +126,10 @@ margin-top: 103px;
   margin: auto;
 }
 
+
+
+
+
 @media (max-width: 888px) {
   #testimonials{
     margin-top: 340px;
@@ -167,7 +171,7 @@ margin-top: 103px;
   .Photo2 {
     max-width: 100%;
     height: auto;
-    width: 220px;
+    width: 200px;
     max-height: 230px;
   }
 
