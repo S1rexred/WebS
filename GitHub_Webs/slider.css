@@ -4,8 +4,10 @@ html, body { background-color: white; }
 
 ul, li { display: block; }
 
+
 #body {
-    left: 50%;
+    left: 70%;
+    top: 130%;
     width: 509px;
     height: 430px;
     display: block;
