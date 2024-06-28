@@ -399,7 +399,7 @@ background-color: #A0ACB9;
     progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true);
 }
 /* оформляем кнопку отправки в режиме активной */
-.send-message:active{
+.send-message:active {
     background-image:-moz-linear-gradient(49% 0% -90deg,rgb(142,154,167) 0%,rgb(124,138,152) 100%); 
     background-image:-webkit-gradient(linear,49% 0%,49% 109%,color-stop(0, rgb(142,154,167)),color-stop(1, rgb(124,138,152)));
     background-image:-webkit-linear-gradient(-90deg,rgb(142,154,167) 0%,rgb(124,138,152) 100%);
@@ -415,4 +415,4 @@ background-color: #A0ACB9;
     progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true)";
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff8e9aa7,endColorstr=#ff7c8a98,GradientType=0);
     progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true);
-
+}
