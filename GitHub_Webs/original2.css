@@ -231,7 +231,7 @@ h4 {
     background-color: black;
     z-index:1001;
     -moz-opacity: 0.7;
-    opacity:.70;
+    opacity:.85;
     filter: alpha(opacity=70);
     max-height: 100%;
     max-width: 100%;
@@ -244,11 +244,11 @@ h4 {
     width: 600px;
     height: 340px;
     background: url(images/envelope.png) center no-repeat;
-    position: relative;
     z-index:1002;
     margin: 10% auto;
     max-height: 100%;
     max-width: 100%;
+    top: 210px;
 }
 /* формируем кнопку закрытия,
 ** размеры, положение на форме  */
@@ -281,7 +281,7 @@ h4 {
 /* можно заменить на другую картинку
 ** или border-bottom: бла бла бла */  
     background: url(images/divider.png) no-repeat bottom;
-    color: #545151;
+    color: white;
     height: 40px;
     width: 400px;
     margin: 15px 0;
@@ -348,12 +348,14 @@ input[type=text]:focus, .your-message:focus {
     position: absolute;
     top: 100px;
     left: 40px;
+    width: 100%;
 }
 
 .email-address {
     position: absolute;
     top: 100px;
     left: 280px;
+    width: 100%;
 }
 /* оформляем кнопку отправки */
 .send-message {
@@ -426,6 +428,57 @@ background-color: #A0ACB9;
 
 @media (max-width: 500px) {
   .envelope {
-margin-left: -35px;
+  margin-left: -35px;
   }
+}
+
+@media (max-width: 455px) {
+  .your-message {
+    width: 350px;
+    margin-left: -10px;
+  }
+  .email-address {
+    max-width: 100px;
+  }
+  .your-name {
+    max-width: 100px;
+  }
+  .envelope {
+    margin-left: -25px;
+    }
+}
+
+@media (max-width: 416px) {
+  .your-message {
+    width: 310px;
+    margin-left: 0px;
+  }
+  .email-address {
+    max-width: 100px;
+    margin-left: -30px;
+  }
+  .your-name {
+    max-width: 90px;
+
+  }
+  .envelope {
+    margin-left: -45px;
+    }
+}
+
+@media (max-width: 333px) {
+  .your-message {
+    width: 290px;
+  }
+  .email-address {
+    max-width: 100px;
+    margin-left: -50px;
+  }
+  .your-name {
+    max-width: 90px;
+
+  }
+  .envelope {
+    margin-left: -55px;
+    }
 }
