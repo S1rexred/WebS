@@ -223,7 +223,7 @@ h4 {
   ** опрделяем позиции, цвет и интенсивность затемнения  */
   .black-overlay{
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0%;
     left: 0%;
     width: 100%;
@@ -233,18 +233,22 @@ h4 {
     -moz-opacity: 0.7;
     opacity:.70;
     filter: alpha(opacity=70);
+    max-height: 100%;
+    max-width: 100%;
 }
 /* устанавливаем рисунок основы,
 ** опрделяем размеры и положение на экране  */
 .envelope {
     display: none;
-    position: absolute;
+    position: fixed;
     width: 600px;
     height: 340px;
     background: url(images/envelope.png) center no-repeat;
-    z-index:1002;
     position: relative;
+    z-index:1002;
     margin: 10% auto;
+    max-height: 100%;
+    max-width: 100%;
 }
 /* формируем кнопку закрытия,
 ** размеры, положение на форме  */
@@ -256,6 +260,9 @@ h4 {
     background: url(images/close.png);
     text-indent: -4999px;
 }
+
+
+
 /* кнопка закрытия при наведении */
 .close-btn:hover{
     background: url(images/close-hover.png);
@@ -415,4 +422,10 @@ background-color: #A0ACB9;
     progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true)";
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff8e9aa7,endColorstr=#ff7c8a98,GradientType=0);
     progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true);
+}
+
+@media (max-width: 500px) {
+  .envelope {
+margin-left: -35px;
+  }
 }
