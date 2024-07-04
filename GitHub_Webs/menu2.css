@@ -1,6 +1,8 @@
 
 body {
     background-color: #D3D3D3;
+    margin: 0;
+    white-space: nowrap;
 }
 
 .card {
@@ -13,6 +15,7 @@ body {
     border-radius: 4px;
     transition: 0.2s;
     grid-auto-rows: 199px;
+    margin: 0;
 }
 
 h1 {
@@ -26,8 +29,8 @@ h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    font-size: 30px;
-    padding-bottom: 0px;
+    font-size: 2rem;
+    padding-bottom: 0;
 }
 
 /* При наведении на карточку - меняем цвет тени */
@@ -177,37 +180,31 @@ h2 {
 
 @media(max-width: 495px) {
     body {
-        width: 490px;
+        width: 30rem;
     }
 }
 
 @media(max-width: 3258px ) {
     h2 {
-    top: 836px;
+    top: 52.3rem;
     }
 }
 
 @media(max-width: 1005px ) {
     h2 {
-    top: 1230px;
-    }
-}
-
-@media(max-width: 1005px ) {
-    h2 {
-    top: 1230px;
+    top: 77rem;
     }
 }
 
 @media(max-width: 750px ) {
     h2 {
-    top: 1618px;
+    top: 101rem;
     }
 }
 
 @media(max-width: 495px ) {
     h2 {
-    top: 1618px;
-    left: 249px;
+    top: 101rem;
+    left: 15.5rem;
     }
 }

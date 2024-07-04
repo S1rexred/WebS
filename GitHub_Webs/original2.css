@@ -525,3 +525,50 @@ h6 {
 color: white;
 transform: translate(10px);
 }
+
+@media(max-width: 512px) {
+  .social-links {
+    top: 16rem;
+  }
+}
+
+@media(max-width: 436px) {
+  .footer-left {
+    left: 1rem;
+    position: absolute;
+  }
+
+  .footer-right {
+    right: -12rem;
+    position: relative;
+  }
+}
+
+@media(max-width: 423px) {
+  .social-links {
+    top: 19.1rem;
+  }
+  .footer-right {
+    right: -12.7rem;
+    position: relative;
+  }
+
+}
+
+@media(max-width: 394px) {
+  .footer {
+    width: 394px;
+  }
+}
+
+@media(max-width: 320px) {
+  .social-links {
+    left: 9rem;
+  }
+}
+
+@media(max-width: 404px) {
+  .footer {
+    width: 403.5px;
+  }
+}
