@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контактная форма</title>
+    <link rel="stylesheet" href={%static "forma.css" %}>
+</head>
+<body>
+
+  <form action="{%url "than"%}" method=""  id="form" class="topBefore">
+    <label>Оставьте свой номер и мы перезвоним в любое указанное вами время</label>
+      <input name='name' id= "name"  type="text" placeholder="Имя">
+      <input id="email" name='phone' type="text" placeholder="Номер">
+      <textarea id="message" name='message' type="text" placeholder="Пожелания"></textarea>
+  <button id="submit"><a href="{%url "than"%}"  type="submit">Отправить</a></button>
+  
+</form>
+</body>
+</html>
