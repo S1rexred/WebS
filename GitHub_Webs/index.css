@@ -180,6 +180,8 @@ h4 {
   text-align: center;
 }
 
+
+
 /* устанавливаем слой затемнения фона,
   ** опрделяем позиции, цвет и интенсивность затемнения  */
   .black-overlay{
@@ -528,7 +530,11 @@ transform: translate(10px);
 
 @media(max-width: 512px) {
   .social-links {
-    top: 16rem;
+    top: 15rem;
+  }
+
+  .footer-left, .footer-right {
+    flex-basis: 45%;
   }
 }
 
@@ -539,19 +545,23 @@ transform: translate(10px);
   }
 
   .footer-right {
-    right: -12rem;
+    right: -11rem;
     position: relative;
+  }
+
+  .footer {
+    max-width: 100%;
+    width: 41.9rem;
   }
 }
 
 @media(max-width: 423px) {
   .social-links {
-    top: 19.1rem;
+    top: 14.8rem;
   }
   .footer-right {
     position: relative;
-    left: 6rem;
-    
+    left: 10rem;
   }
 
 }
@@ -572,14 +582,37 @@ transform: translate(10px);
   .footer {
     width: 403.5px;
   }
+  .footer-left, .footer-right {
+    flex-basis: 47%;
+  }
 }
 
-@media(max-width: 403px) {
-  .footer-right {
-    left: 110px;
-  }
-
+@media(max-width: 390px) {
   .footer {
     max-width: 100%;
+    width: 36.7rem;
+  }
+
+  .footer-right {
+    position: relative;
+    left: 7rem;
+  }
+  .footer-left, .footer-right {
+    flex-basis: 57%;
   }
 }
+
+@media(max-width: 326px) {
+  .footer-right {
+    position: relative;
+    left: 6.5rem;
+  }
+}
+
+@media(max-width: 336px) {
+  .footer-right {
+    position: relative;
+    left: 6.4rem;
+  }
+}
+

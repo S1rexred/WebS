@@ -190,3 +190,16 @@ h3 {
       z-index: 1;
     }
   }
+
+  @media(max-width: 331px) {
+    .Photo2 {
+      left: 8.5rem;
+      position: relative;
+    }
+
+    #testimonials {
+      margin-top: 100px;
+      position: relative;
+    }
+
+  }
