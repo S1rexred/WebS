@@ -549,8 +549,9 @@ transform: translate(10px);
     top: 19.1rem;
   }
   .footer-right {
-    right: -12.7rem;
     position: relative;
+    left: 6rem;
+    
   }
 
 }
@@ -561,7 +562,7 @@ transform: translate(10px);
   }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 359px) {
   .social-links {
     left: 9rem;
   }
@@ -570,5 +571,15 @@ transform: translate(10px);
 @media(max-width: 404px) {
   .footer {
     width: 403.5px;
+  }
+}
+
+@media(max-width: 403px) {
+  .footer-right {
+    left: 110px;
+  }
+
+  .footer {
+    max-width: 100%;
   }
 }
