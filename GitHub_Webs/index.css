@@ -1,0 +1,619 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgba(243, 243, 243);
+}
+
+.main-title{ 
+letter-spacing: 2px;
+font-size: 37px;
+margin-top: 103px;
+}
+
+#showcase-area {
+  height: 60vh;
+  background: linear-gradient(
+      rgba(240, 240, 240, 0.144),
+      rgba(255, 255, 255, 0.336)
+    ),
+    url("https://e.radikal.host/2024/06/25/2024-06-25_16-51-41.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  weight: 2.3rem;
+}
+
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.6rem;
+}
+
+
+
+/* ///////////..utility classes../////////// */
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 1em;
+  text-transform: uppercase;
+  font-weight: small;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #16a083;
+  font-weight: 700;
+  border-radius: 7px;
+}
+
+.btn-primary:hover {
+  background: #117964;
+  transition: background 0.4s ease-in-out;
+}
+
+/* ............/navbar/............ *
+
+/* desktop mode............/// */
+
+
+#testimonials {
+  padding: 5rem 0;
+  background: rgba(243, 243, 243);
+}
+
+.testimonial-title {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: black;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.testimonial-box .checked {
+  color: black;
+}
+
+.testimonial-box .testimonial-text {
+  margin: 1rem 0;
+  color: #444;
+}
+
+.testimonial-box {
+  text-align: center;
+  padding: 1rem;
+}
+
+.customer-photo img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin: auto;
+}
+
+
+
+
+
+@media (max-width: 888px) {
+  #testimonials{
+    margin-top: 340px;
+  }
+}
+
+@media (max-width: 750px ) {
+  .testimonial-box {
+    object-fit: cover; !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .food-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .food-type:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  .food-type {
+    box-shadow: 5px 5px 10px 0 #aaa;
+  }
+
+  .img-container {
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+
+#about p{
+  font-size: 17px;
+}
+
+}
+  h3 {
+    color: rgb(0, 0, 0);
+    font-size: 34px;
+
+  }
+
+h4 {
+  font-size: 34px;
+  text-align: center;
+}
+
+
+
+/* устанавливаем слой затемнения фона,
+  ** опрделяем позиции, цвет и интенсивность затемнения  */
+  .black-overlay{
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.7;
+    opacity:.85;
+    filter: alpha(opacity=70);
+    max-height: 100%;
+    max-width: 100%;
+}
+/* устанавливаем рисунок основы,
+** опрделяем размеры и положение на экране  */
+.envelope {
+    display: none;
+    position: fixed;
+    width: 600px;
+    height: 340px;
+    background: url(images/envelope.png) center no-repeat;
+    z-index:1002;
+    margin: 10% auto;
+    max-height: 100%;
+    max-width: 100%;
+    top: 210px;
+}
+/* формируем кнопку закрытия,
+** размеры, положение на форме  */
+.close-btn {
+    width: 31px;
+    height: 31px;
+    display: block;
+    cursor: pointer;/* для случая применения отличных от <a> тегов */
+    background: url(images/close.png);
+    text-indent: -4999px;
+}
+
+
+
+/* кнопка закрытия при наведении */
+.close-btn:hover{
+    background: url(images/close-hover.png);
+
+}
+/* оформляем заголовок формы */
+.title {
+    font-family: "Trebuchet MS",Tahoma,Arial,sans-serif;
+    font-size:22px;
+    font-weight: normal;
+    font-weight: 200;
+    text-align:left;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+/* можно заменить на другую картинку
+** или border-bottom: бла бла бла */  
+    background: url(images/divider.png) no-repeat bottom;
+    color: white;
+    height: 40px;
+    width: 400px;
+    margin: 15px 0;
+    text-shadow: 1px 1px #FFF;/* тень текста */
+}
+/* стили для полей ввода */
+input[type=text] {
+    font-family: "Trebuchet MS",Tahoma,Arial,sans-serif;
+    font-size: 13px;
+    background-color:rgb(255,255,255);
+    color: #787474;
+    padding-left: 10px;
+    width:208px;
+    height:33px;
+    border-color:rgb(182,182,182);
+    border-width:1px;
+    border-style:solid;
+    -moz-box-shadow:0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 2px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow:0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 2px 0px rgba(0,0,0,0.2);
+    box-shadow:0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 2px 0px rgba(0,0,0,0.2);
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true)";
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+/* меняем оформление полей ввода при фокусе */
+input[type=text]:focus, .your-message:focus {
+    outline: none;
+    background-color:rgb(255,255,255);
+    border-color:rgb(126,139,153);
+    border: 1px solid;
+    -moz-box-shadow:0px 0px 5px 0px rgba(168,178,188,0.75) ,0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 2px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow:0px 0px 5px 0px rgba(168,178,188,0.75) ,0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 2px 0px rgba(0,0,0,0.4);
+    box-shadow:0px 0px 5px 0px rgba(168,178,188,0.75) ,0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 2px 0px rgba(0,0,0,0.4);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Glow(Color=#bfa8b2bc,Strength=5)
+            progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true)";
+    filter:progid:DXImageTransform.Microsoft.Glow(Color=#bfa8b2bc,Strength=5)
+            progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true);
+}
+.your-message {
+    font-family: "Trebuchet MS",Tahoma,Arial,sans-serif;
+    font-size: 13px;
+    background-color:rgb(255,255,255);
+    color: #787474;
+    padding: 10px 0 0 10px;
+    width:448px;
+    height:93px;
+    border-color:rgb(182,182,182);
+    border-width:1px;
+    border-style:solid;
+    -moz-box-shadow:0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 2px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow:0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 2px 0px rgba(0,0,0,0.2);
+    box-shadow:0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 2px 0px rgba(0,0,0,0.2);
+    -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true)";
+    filter:progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true);
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.your-name {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    width: 100%;
+}
+
+.email-address {
+    position: absolute;
+    top: 100px;
+    left: 280px;
+    width: 100%;
+}
+/* оформляем кнопку отправки */
+.send-message {
+background-color: #929FAB;
+    background-image:-moz-linear-gradient(49% 0% -90deg,rgb(171,181,191) 0%,rgb(124,138,152) 100%); 
+    background-image:-webkit-gradient(linear,49% 0%,49% 109%,color-stop(0, rgb(171,181,191)),color-stop(1, rgb(124,138,152)));
+    background-image:-webkit-linear-gradient(-90deg,rgb(171,181,191) 0%,rgb(124,138,152) 100%);
+    background-image:-o-linear-gradient(-90deg,rgb(171,181,191) 0%,rgb(124,138,152) 100%);
+    background-image:-ms-linear-gradient(-90deg,rgb(171,181,191) 0%,rgb(124,138,152) 100%);
+    background-image:linear-gradient(-90deg,rgb(171,181,191) 0%,rgb(124,138,152) 100%);
+    width:130px;
+    height:35px;
+    -moz-box-shadow:0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 3px rgb(97,108,122);
+    -webkit-box-shadow:0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 3px rgb(97,108,122);
+    box-shadow:0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 3px rgb(97,108,122);
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffabb5bf,endColorstr=#ff7c8a98,GradientType=0)
+    progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true)";
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffabb5bf,endColorstr=#ff7c8a98,GradientType=0)
+    progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true); 
+    color: #fff;
+    font-family: "Trebuchet MS",Tahoma,Arial,sans-serif;
+    font-size: 13px;
+    text-shadow: 0 1px 0 #21405D;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    position: absolute;
+    top: 269px;
+    right: 100px;
+}
+/* оформляем кнопку отправки при наведении */
+.send-message:hover{
+background-color: #A0ACB9;
+    background-image:-moz-linear-gradient(49% 0% -90deg,rgb(170,181,195) 0%,rgb(144,157,169) 100%); 
+    background-image:-webkit-gradient(linear,49% 0%,49% 109%,color-stop(0, rgb(170,181,195)),color-stop(1, rgb(144,157,169)));
+    background-image:-webkit-linear-gradient(-90deg,rgb(170,181,195) 0%,rgb(144,157,169) 100%);
+    background-image:-o-linear-gradient(-90deg,rgb(170,181,195) 0%,rgb(144,157,169) 100%);
+    background-image:-ms-linear-gradient(-90deg,rgb(170,181,195) 0%,rgb(144,157,169) 100%);
+    background-image:linear-gradient(-90deg,rgb(170,181,195) 0%,rgb(144,157,169) 100%);
+    width:130px;
+    height:35px;
+    -moz-box-shadow:0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 3px rgb(97,108,122);
+    -webkit-box-shadow:0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 3px rgb(97,108,122);
+    box-shadow:0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 3px rgb(97,108,122);
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffaab5c3,endColorstr=#ff909da9,GradientType=0)
+    progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true)";
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffaab5c3,endColorstr=#ff909da9,GradientType=0)
+    progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true);
+}
+/* оформляем кнопку отправки в режиме активной */
+.send-message:active {
+    background-image:-moz-linear-gradient(49% 0% -90deg,rgb(142,154,167) 0%,rgb(124,138,152) 100%); 
+    background-image:-webkit-gradient(linear,49% 0%,49% 109%,color-stop(0, rgb(142,154,167)),color-stop(1, rgb(124,138,152)));
+    background-image:-webkit-linear-gradient(-90deg,rgb(142,154,167) 0%,rgb(124,138,152) 100%);
+    background-image:-o-linear-gradient(-90deg,rgb(142,154,167) 0%,rgb(124,138,152) 100%);
+    background-image:-ms-linear-gradient(-90deg,rgb(142,154,167) 0%,rgb(124,138,152) 100%);
+    background-image:linear-gradient(-90deg,rgb(142,154,167) 0%,rgb(124,138,152) 100%);
+    width:130px;
+    height:35px;
+    -moz-box-shadow:0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 5px rgb(65,73,85);
+    -webkit-box-shadow:0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 5px rgb(65,73,85);
+    box-shadow:0px 1px 0px 0px rgba(255,255,255,0.5) ,inset 0px 1px 5px rgb(65,73,85);
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff8e9aa7,endColorstr=#ff7c8a98,GradientType=0);
+    progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true)";
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff8e9aa7,endColorstr=#ff7c8a98,GradientType=0);
+    progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1,Color = #80ffffff,Positive = true);
+}
+
+@media (max-width: 500px) {
+  .envelope {
+  margin-left: -35px;
+  }
+}
+
+@media (max-width: 455px) {
+  .your-message {
+    width: 350px;
+    margin-left: -10px;
+  }
+  .email-address {
+    max-width: 100px;
+  }
+  .your-name {
+    max-width: 100px;
+  }
+  .envelope {
+    margin-left: -25px;
+    }
+}
+
+@media (max-width: 416px) {
+  .your-message {
+    width: 310px;
+    margin-left: 0px;
+  }
+  .email-address {
+    max-width: 100px;
+    margin-left: -30px;
+  }
+  .your-name {
+    max-width: 90px;
+
+  }
+  .envelope {
+    margin-left: -45px;
+    }
+}
+
+@media (max-width: 333px) {
+  .your-message {
+    width: 290px;
+  }
+  .email-address {
+    max-width: 100px;
+    margin-left: -50px;
+  }
+  .your-name {
+    max-width: 90px;
+
+  }
+  .envelope {
+    margin-left: -55px;
+    }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+#footer {
+  width: 100%;
+  height: 10vh;
+  position: relative;
+}
+
+.title-text {
+  text-align: center;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  background-color: #696969;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-left, .footer-right {
+  flex-basis: 35%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-right {
+  text-align: right;
+
+}
+
+.footer h6 {
+  margin: 10px 0;
+  color: white;
+}
+
+.footer p {
+  line-height: 35px;
+  color: white;
+}
+
+.footer-left .fas, .footer-right .fas { 
+  font-size: 17px;
+  color: black;
+  margin-right: 5px;
+}
+
+.social-links {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.social-links .fab {
+  font-size: 40px;
+  color: black;
+  cursor: pointer;
+  padding: 6px;
+  transition: .8s;
+}
+
+.social-links .fab:hover {
+color: white;
+transform: translate(10px);
+}
+
+@media(max-width: 512px) {
+  .social-links {
+    top: 15rem;
+  }
+
+  .footer-left, .footer-right {
+    flex-basis: 45%;
+  }
+}
+
+@media(max-width: 436px) {
+  .footer-left {
+    left: 1rem;
+    position: absolute;
+  }
+
+  .footer-right {
+    right: -11rem;
+    position: relative;
+  }
+
+  .footer {
+    max-width: 100%;
+    width: 41.9rem;
+  }
+}
+
+@media(max-width: 423px) {
+  .social-links {
+    top: 14.8rem;
+  }
+  .footer-right {
+    position: relative;
+    left: 10rem;
+  }
+
+}
+
+@media(max-width: 394px) {
+  .footer {
+    width: 394px;
+  }
+}
+
+@media(max-width: 359px) {
+  .social-links {
+    left: 9rem;
+  }
+}
+
+@media(max-width: 404px) {
+  .footer {
+    width: 403.5px;
+  }
+  .footer-left, .footer-right {
+    flex-basis: 47%;
+  }
+}
+
+@media(max-width: 390px) {
+  .footer {
+    max-width: 100%;
+    width: 36.7rem;
+  }
+
+  .footer-right {
+    position: relative;
+    left: 7rem;
+  }
+  .footer-left, .footer-right {
+    flex-basis: 57%;
+  }
+}
+
+@media(max-width: 326px) {
+  .footer-right {
+    position: relative;
+    left: 6.5rem;
+  }
+}
+
+@media(max-width: 336px) {
+  .footer-right {
+    position: relative;
+    left: 6.4rem;
+  }
+}
+

@@ -1,0 +1,179 @@
+h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: #555;
+}
+
+#about {
+    padding: 20px 0;
+    background: #f5f5f7;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #555;
+    text-indent: 50px;
+}
+
+.about-img {
+    flex: 1 1 400px;
+    padding: 30px;
+    position: relative;
+}
+
+.about-text {
+    flex: 1 1 400px;
+    padding: 30px;
+    margin: auto;
+}
+
+.Photo1 {
+    position: absolute;
+    z-index: 1;
+    max-width: 100%;
+    height: auto;
+    width: 310px;
+    max-height: 330px;
+}
+
+.Photo2 {
+    position: absolute;
+    left: 200px;
+    top: 90px;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    width: 310px;
+    max-height: 330px;
+}
+
+.Photo3 {
+    position: absolute;
+    top: 210px;
+    left: 0px;
+    z-index: 3;
+    max-width: 100%;
+    height: auto;
+    width: 310px;
+    max-height: 310px;
+}
+
+@media (max-width: 539px) {
+    .Photo1 {
+        max-width: 100%;
+        height: auto;
+        width: 220px;
+        max-height: 230px;
+    }
+    .Photo2 {
+        max-width: 100%;
+        height: auto;
+        width: 200px;
+        max-height: 230px;
+    }
+    .Photo3 {
+        max-width: 100%;
+        height: auto;
+        width: 220px;
+        max-height: 230px;
+        left: 50px;
+        top: 200px;
+        position: absolute;
+        z-index: 1;
+    }
+    #about p {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 443px) {
+    .Photo1 {
+        max-width: 100%;
+        height: auto;
+        width: 200px;
+        max-height: 210px;
+    }
+    .Photo2 {
+        max-width: 100%;
+        height: auto;
+        width: 200px;
+        max-height: 210px;
+        left: 133px;
+        position: absolute;
+        z-index: 1;
+    }
+    .Photo3 {
+        max-width: 100%;
+        height: auto;
+        width: 200px;
+        max-height: 210px;
+        left: 50px;
+        top: 190px;
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 329px) {
+    .Photo1 {
+        max-width: 100%;
+        height: auto;
+        width: 185px;
+        max-height: 195px;
+        left: -10px;
+        position: absolute;
+        z-index: 1;
+    }
+    .Photo2 {
+        max-width: 100%;
+        height: auto;
+        width: 190px;
+        max-height: 210px;
+        left: 104px;
+        position: absolute;
+        z-index: 1;
+    }
+    .Photo3 {
+        max-width: 100%;
+        height: auto;
+        width: 200px;
+        max-height: 210px;
+        left: 5px;
+        top: 190px;
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 889px) and (max-width: 1023px) {
+    .Photo2 {
+        max-width: 100%;
+        height: auto;
+        width: 300px;
+        max-height: 300px;
+        left: 133px;
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 355px) {
+    .Photo2 {
+        max-width: 100%;
+        height: auto;
+        width: 180px;
+        max-height: 180px;
+        left: 133px;
+        position: absolute;
+        z-index: 1;
+    }
+}
