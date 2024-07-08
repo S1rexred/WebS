@@ -180,7 +180,7 @@ h2 {
     padding-right: 5px;
 }
 
-@media(max-width: 512px) {
+@media(max-width: 653px) {
     body {
         width: 30rem;
     }
@@ -208,5 +208,13 @@ h2 {
     h2 {
     top: 101rem;
     left: 15.5rem;
+    }
+}
+
+@media(max-width: 523px) {
+    .cards{
+        grid-template-columns: repeat(auto-fill, 210px);
+        margin-right: 20px;
+
     }
 }
