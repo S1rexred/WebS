@@ -13,9 +13,9 @@ body {
     flex-direction: column;
     /* Размещаем элементы в колонку */
     border-radius: 4px;
-    transition: 0.2s;
+    transition: width 0.2s ease-in-out;
     grid-auto-rows: 199px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 h1 {
@@ -183,6 +183,16 @@ h2 {
 @media(max-width: 653px) {
     body {
         width: 30rem;
+        max-width: 190%;
+    }
+
+    .card {
+        max-width: 160px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(auto-fill, 150px);
+        
     }
 }
 
